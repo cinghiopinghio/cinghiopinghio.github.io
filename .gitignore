@@ -1,1 +1,3 @@
 _build
+*.css
+.sass-cache
