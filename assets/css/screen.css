@@ -688,7 +688,7 @@ nav {
   padding: 1.2em;
 }
 nav h1 {
-  color: #777777;
+  color: #999999;
   margin-top: 0em;
 }
 nav ul {
@@ -708,7 +708,7 @@ nav li {
   }
 }
 nav p {
-  color: #777777;
+  color: #999999;
   font-size: 1rem;
   line-height: 1.22222rem;
   margin-bottom: 0px;
