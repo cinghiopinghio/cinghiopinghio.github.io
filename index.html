@@ -1,30 +1,17 @@
-{% extends 'first_page_layout.html' %}
+{% extends 'layout.html' %}
 
 {% block content %}
-<header>
-      <img src="{{ get_url('assets/images/')}}cinghio.svg" 
-      alt="cinghio" width="200em">
-</header>
-<main>
-  <article style="margin-top:50px">
+  <article>
     <h1>
       <img src="{{ get_url('assets/images/')}}cinghio.svg" 
       alt="cinghio" width="100%">
     </h1>
 
-    Site under construnction
-  </article>
-  <article>
-  <h1>News (h1):</h1>
-  <h2>News (h2):</h2>
-  </article>
-
   {% for post in posts %}
       <article>
-        <h3><a href={{ get_url(post.url) }}>{{ post.title }}</a></h3>
-        <h4>{{ post.date }}{% if post.tags %} <span>&raquo;</span> {% for tag in post.tags %}<a href="{{ get_url(tags[tag].url) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}</h4>
+        <h2><a href={{ get_url(post.url) }}>{{ post.title }}</a></h2>
+        {{ post.date }}{% if post.tags %} <span>&raquo;</span> {% for tag in post.tags %}<a href="{{ get_url(tags[tag].url) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}
       </article>
       <br>
       {% endfor %}
-</main>
 {% endblock %}
