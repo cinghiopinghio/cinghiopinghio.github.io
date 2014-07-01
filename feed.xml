@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://cinghiopinghio.github.io/" />
     <link rel="self" href="http://cinghiopinghio.github.io/feed.xml" type="application/atom+xml" />
     <id>http://cinghiopinghio.github.io/</id>
-    <updated>2014-07-01T08:07:53Z</updated>
+    <updated>2014-07-01T08:33:48Z</updated>
     
     <author>
         <name>Cinghio Pinghio</name>
@@ -15,21 +15,15 @@
     
     
         <entry>
-            <title>It works!</title>
+            <title>First Post</title>
             <link rel="alternate" href="http://cinghiopinghio.github.io/news/2011-12-04-It-works/" type="text/html" />
             <id>http://cinghiopinghio.github.io/news/2011-12-04-It-works/</id>
-            <updated>2011-12-04T14:39:00Z</updated>
+            <updated>2011-12-04T08:33:00Z</updated>
             
-            <summary type="html">This is a &lt;em&gt;Test&lt;/em&gt;&lt;br&gt;
-&lt;pre&gt;&lt;code data-lang=&#34;html&#34;&gt;&lt;dl&gt;&lt;br&gt;
-    &lt;dt&gt;[Quickstart][quickstart]&lt;/dt&gt;&lt;br&gt;
-    &lt;dd&gt;</summary>
-            <content type="html">&lt;p&gt;This is a &lt;em&gt;Test&lt;/em&gt;&lt;br&gt;
-&lt;pre&gt;&lt;code data-lang=&#34;html&#34;&gt;&lt;dl&gt;&lt;br&gt;
-    &lt;dt&gt;[Quickstart][quickstart]&lt;/dt&gt;&lt;br&gt;
-    &lt;dd&gt;&lt;/p&gt;
+            <summary type="html">This is my first post.</summary>
+            <content type="html">&lt;p&gt;This is my first post.&lt;/p&gt;
 
-&lt;p&gt;&amp;#91;quickstart]: http://&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;This is a &lt;em&gt;Test&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla&lt;/p&gt;
 </content>
