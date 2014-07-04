@@ -601,6 +601,14 @@ th {
   padding: 0;
 }
 
+/* Palette URL: http://paletton.com/#uid=7030z0keIkVa5LJaRtCgjcWk07i */
+/* Feel free to copy&paste color codes to your application */
+/* MIXINS */
+/* As hex codes */
+/* Main Primary color */
+/* Main Secondary color (1) */
+/* Main Secondary color (2) */
+/* Main Complement color */
 body {
   max-width: 100%;
   margin-left: auto;
@@ -675,12 +683,22 @@ html {
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   font-family: "PT Sans", sans-serif;
+  height: 100%;
+}
+
+.bg-color {
+  background-color: #673633;
+  text-color: #999999;
 }
 
 nav {
-  background-color: #552233;
+  background-color: #673633;
   font-size: 1.38889rem;
   line-height: 1.83333rem;
   font-family: "PT Serif", serif;
@@ -720,20 +738,25 @@ nav p {
   }
 }
 
+.splash {
+  height: 100%;
+  background-color: #673633;
+}
+
 a {
-  color: #558800;
+  color: #648794;
   text-decoration: none;
 }
 a:hover {
-  text-shadow: 0 0 0.1em #558800;
+  text-shadow: 0 0 0.1em #648794;
 }
 a:focus {
-  text-shadow: 0 0 0.2em #558800;
+  text-shadow: 0 0 0.2em #648794;
 }
 
 h1, h2, h3, h4, h5 {
   font-family: "PT Serif", serif;
-  color: #555555;
+  color: #77b582;
   font-weight: 900;
 }
 
@@ -804,7 +827,7 @@ p {
 }
 
 .bottom-line {
-  border-bottom-color: #bbbbbb;
+  border-bottom-color: #999999;
   border-bottom-style: solid;
   border-bottom-width: 1px;
 }
