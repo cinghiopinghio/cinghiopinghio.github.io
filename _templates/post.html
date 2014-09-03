@@ -1,27 +1,28 @@
 {% extends 'layout.html' %}
 
 
-{% set title = post.title %}
+{% set title = item.title %}
 
 {% block content %}
 
   <div class="post-header">
-	  <h2 class='bottom-line'>{{ post.title }}</h2>
-	  {{ post.date }}{% if post.tags %} <span>&raquo;</span> {% for tag in post.tags %}<a href="{{ get_url(tags[tag].url) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}
+	  <h2 class='bottom-line'>{{ item.title }}</h2>
+	  {{ item.date }}{% if item.tags %} <span>&raquo;</span> {% for tag
+          in item.tags %}<a href="{{ get_url(posts.tags[tag].url) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}
   </div>
 
-  {% if post.figure %} 
+  {% if item.figure %} 
     <aside>
-      <img src="{{ get_asset( 'files/'+post.figure ) }}" width=100% alt={{ post.title }}>
+      <img src="{{ get_asset( 'files/'+item.figure ) }}" width=100% alt={{ item.title }}>
     </aside>
   {% endif %}
   <section>
-    {{ post.content }}
-    {% if post.paperauthors %}    <b>{{ post.paperauthors }}</b><br>  {% endif %}
-    {% if post.papertitle %}      <i>{{ post.papertitle }}</i><br> {% endif %}
-    {% if post.paperjournallink %}<a href={{ post.paperjournallink }}>{{ post.paperjournal }}</a>{% endif %}
-    {% if post.paperpdf %}        [<a href={{ get_asset( 'papers/'+ post.paperpdf) }}>pdf</a>]{% endif %}
-    {% if post.paperarxiv %}      [<a href={{ post.paperarxiv }}>arXiv</a>]{% endif %}
+    {{ item.content }}
+    {% if item.paperauthors %}    <b>{{ item.paperauthors }}</b><br>  {% endif %}
+    {% if item.papertitle %}      <i>{{ item.papertitle }}</i><br> {% endif %}
+    {% if item.paperjournallink %}<a href={{ item.paperjournallink }}>{{ item.paperjournal }}</a>{% endif %}
+    {% if item.paperpdf %}        [<a href={{ get_asset( 'papers/'+ item.paperpdf) }}>pdf</a>]{% endif %}
+    {% if item.paperarxiv %}      [<a href={{ item.paperarxiv }}>arXiv</a>]{% endif %}
   </section>
 
 {% endblock %}
