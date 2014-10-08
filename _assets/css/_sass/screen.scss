@@ -1,119 +1,17 @@
-@import "base2";
+@import 'base';
 
 
-* { box-sizing: border-box; }
-
-body{
-  font-family: $base-font-family;
-}
-
-.main{
-  @include breakpoint($breakpoint-small){
-  }
+body {
+  margin:0;
 }
 
 nav {
-  background-color: $color-nav-bg;
-  h1{ 
-    color:$color-nav; 
-    margin-top:0em;
-  }
-  @include type-scale(medium);
-  font-family: $alt-font-family;
-  ul{
-    padding-left:0;
-    list-style-type:none;
-  }
-  li{
-    @include type-scale(medium);
-    @include type-weight(bold);
-  }
-  text-align: center;
-  @include breakpoint($breakpoint-small){
-    position: fixed;
-    height:100%;
-    text-align: left;
-  }
-  p {
-    color: $color-nav;
-    @include type-scale(base);
-    @include breakpoint($breakpoint-small){
-      @include type-scale(medium);
-    }
-    margin-bottom:0px;
-  }
-  padding:1.2em;
-}
-
-a{
-  color: $color-links;
-  text-decoration: none;
-  &:hover {
-    text-shadow: 0 0 0.1em $color-links;
-  } 
-  &:focus {
-    text-shadow: 0 0 0.2em $color-links;
+	background-color: $color-main;
+	text-align:center;
+	padding:1em;
+  @include media ($mmobile){
+	  position:fixed;
+	  height:100%;
+	  text-align:right;
   }
 }
-
-h1,h2,h3,h4,h5 {
-  font-family: $alt-font-family;
-  color: $color-title;
-  @include type-weight(black);
-}
-
-h1 {@include type-scale(xlarge);}
-h2 {@include type-scale(large);}
-h3 {@include type-scale(medium);}
-h4 {@include type-scale(base);}
-p  {@include type-scale(small);}
-small {@include type-scale(small);}
-
-@include breakpoint ($breakpoint-medium){
-  h1 {@include type-scale(xxlarge);}
-  h2 {@include type-scale(xlarge);}
-  h3 {@include type-scale(large);}
-  h4 {@include type-scale(medium);}
-  p  {@include type-scale(base);}
-  small {@include type-scale(small);}
-}
-
-p{
-  @include type-weight(thin);
-  margin-top:0;
-}
-
-.bottom-line{
-	border-bottom-color:$color-title-line;
-	border-bottom-style:solid;
-	border-bottom-width:1px;
-}
-
-.post-header{
-	h1,h2,h3,h4 {
-		margin-bottom:0;
-	}
-  color:#555555;
-  @include type-scale(small);
-  font-family: $capt-font-family;
-  margin-bottom: 1em;
-}
-
-.crop{
-  max-height: 15em;
-  overflow:hidden;
-}
-
-article{
-  margin-top: 1em;
-  margin-bottom: 2em;
-  @include clearfix;
-}
-
-ul {
-  list-style-type:disc;
-}
-em {
-  font-style: italic;
-}
-

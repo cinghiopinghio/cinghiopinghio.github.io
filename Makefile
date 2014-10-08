@@ -1,19 +1,29 @@
 BUILD_DIR='_build/'
-GH_DIR='../cinghiopinghio.github.io'
+TIME=`date -Iseconds`
+TEMPDIR='/tmp/'
 
-try:
-	cd ./_assets/css/_sass;	compass compile
+build: sass 
+	@echo -e "\nbuilding the webpage\n"
+	#cd _assets/css/_sass/ && compass compile
 	mynt gen -f $(BUILD_DIR)
 
-clean:
-	rm -rf $(BUILD_DIR)
+sass: 
+	sass --update ./_assets/css/_sass:./_assets/css --cache-location /tmp/sass-cache --trace --sourcemap=none 
 
-build: try
-	rsync -av $(BUILD_DIR) $(GH_DIR)
+deploy: build
+	cd _build && git add -A && git ci -m "${TIME}" && git push origin master
 
-serve: try
-	mynt watch -f $(BUILD_DIR) &
-	mynt serve $(BUILD_DIR) &
+
+serve: build 
+	@ echo "Serving on port 8082"
+	sass --watch ./_assets/css/_sass:./_assets/css --cache-location /tmp/sass-cache --trace --sourcemap=none & echo "$$!" > /tmp/cserve.pid
+	@ sleep 2
+	mynt watch -f $(BUILD_DIR) & echo "$$!" >> /tmp/cserve.pid
+	@ sleep 2
+	mynt serve -p 8082 $(BUILD_DIR) & echo "$$!" >> /tmp/cserve.pid
+
+stop:
+	@ for i in $$(cat /tmp/cserve.pid); do echo killing pid: $$i; kill $$i; done
 
 
 

@@ -1,0 +1,54 @@
+@import 'bourbon/bourbon';
+@import 'base/base';
+
+
+// COLORS
+$color-main: #5FB96A;
+
+
+$max-width : 100%;
+@import 'neat/neat';
+
+$breakpoint-small: 50em;
+$breakpoint-medium: 60em;
+$breakpoint-big: 90em;
+
+$mmobile: new-breakpoint(min-width $breakpoint-small 12);
+$mmedium: new-breakpoint(min-width $breakpoint-medium 12);
+$mbig: new-breakpoint(min-width $breakpoint-big 12);
+
+//// Susy grid
+body{
+  @include outer-container;
+  width:100%;
+  @include media ($mmobile){
+    nav{
+      @include span-columns(4);
+    }
+    .main{
+      @include span-columns(7);
+      @include shift(4);
+      aside {
+        @include span-columns(2 of 7);
+      }
+      section{
+        @include span-columns(5 of 7);
+      }
+    }
+  }
+  @include media ($mmedium){
+    nav{
+      @include span-columns(3);
+    }
+    .main{
+      @include span-columns(6 of 12);
+      @include shift(3);
+      aside {
+        @include span-columns(2 of 6);
+      }
+      section{
+        @include span-columns(4 of 6);
+      }
+    }
+  }
+}
