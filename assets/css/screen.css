@@ -299,6 +299,10 @@ nav {
       height: 100%;
       text-align: right; } }
 
+.nav li {
+  display: inline;
+  padding: 1em; }
+
 .splash {
   width: 100%;
   position: fixed;
