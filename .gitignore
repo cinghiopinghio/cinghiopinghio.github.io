@@ -1,3 +1,7 @@
 _build
 *.css
 .sass-cache
+_assets/css/_sass/base/
+_assets/css/_sass/bourbon/
+_assets/css/_sass/neat/
+

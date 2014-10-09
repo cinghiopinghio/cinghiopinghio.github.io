@@ -8,21 +8,7 @@
   </head>
 
   <body>
-    <nav>
-      <img src="{{ get_url('assets/images/')}}cinghio.svg" 
-      alt="cinghio" width="200em">
-      <h1>Cinghio Pinghio</h1>
-      <ul>
-        <li><a href="{{ get_url() }}">Home</a></li>
-      </ul>
-      <p>
-        This is my webpage.
-      </p>
-    </nav>
-       
-    <div class='main'>
       {% block content %}{% endblock %}
-    </div>
   </body>
 
 </html>
