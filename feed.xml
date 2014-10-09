@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://cinghiopinghio.github.io/" />
     <link rel="self" href="http://cinghiopinghio.github.io/feed.xml" type="application/atom+xml" />
     <id>http://cinghiopinghio.github.io/</id>
-    <updated>2014-07-04T12:45:45Z</updated>
+    <updated>2014-10-09T10:13:17Z</updated>
     
     <author>
         <name>Cinghio Pinghio</name>
@@ -15,15 +15,50 @@
     
     
         <entry>
+            <title>Re-enable usb mass storage in CM 10.1 nightly LG p970</title>
+            <link rel="alternate" href="http://cinghiopinghio.github.io/news/2014-09-09-Re-enable-usb-mass-storage-in-CM-10.1-nightly-LG-p970/cm-droid-usb/" type="text/html" />
+            <id>http://cinghiopinghio.github.io/news/2014-09-09-Re-enable-usb-mass-storage-in-CM-10.1-nightly-LG-p970/cm-droid-usb/</id>
+            <updated>2014-09-09T09:22:00Z</updated>
+            
+            <summary type="html">&lt;a href=&#34;http://forum.cyanogenmod.org/topic/64912-unable-to-connect-to-pc-with-usb/&#34;&gt;http://forum.cyanogenmod.org/topic/64912-unable-to-connect-to-pc-with-usb/&lt;/a&gt;</summary>
+            <content type="html">&lt;p&gt;&lt;a href=&#34;http://forum.cyanogenmod.org/topic/64912-unable-to-connect-to-pc-with-usb/&#34;&gt;http://forum.cyanogenmod.org/topic/64912-unable-to-connect-to-pc-with-usb/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;i recently update to 10.1 and had the same problem and solve it using the procedure below
+- turn off the optimus
+- connect the USB cable to a PC (Linux in my case)
+- press &amp;ldquo;G&amp;rdquo; , &amp;ldquo;VOLDOWN&amp;rdquo;  &amp;amp; &amp;ldquo;POWER&amp;rdquo;
+- when the P970 starts , release &amp;ldquo;POWER&amp;rdquo;, don&amp;rsquo;t depress the other
+- at the end of power on , the P970 is recognized as a mass storage (you can depress the button)
+in my case , i think that a accidently press the G key during a restart in recovery mode, and
+here are the linux message before reboot&lt;/p&gt;
+</content>
+        </entry>
+    
+        <entry>
             <title>First Post</title>
-            <link rel="alternate" href="http://cinghiopinghio.github.io/news/2014-07-04-new-site/" type="text/html" />
-            <id>http://cinghiopinghio.github.io/news/2014-07-04-new-site/</id>
+            <link rel="alternate" href="http://cinghiopinghio.github.io/news/2014-07-04-First-Post/new-site/" type="text/html" />
+            <id>http://cinghiopinghio.github.io/news/2014-07-04-First-Post/new-site/</id>
             <updated>2014-07-04T12:45:00Z</updated>
             
             
             <content type="html">&lt;h1&gt;This is my first post.&lt;/h1&gt;
-&lt;p&gt;I started using mynt for other projects and now I&amp;#39;m using it for this very &lt;br&gt;
+&lt;p&gt;I started using mynt for other projects and now I&amp;rsquo;m using it for this very 
 personal project.&lt;/p&gt;
+
+&lt;p&gt;This is a &lt;em&gt;Test&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla&lt;/p&gt;
+</content>
+        </entry>
+    
+        <entry>
+            <title>First Post</title>
+            <link rel="alternate" href="http://cinghiopinghio.github.io/news/2011-12-04-First-Post/It-works/" type="text/html" />
+            <id>http://cinghiopinghio.github.io/news/2011-12-04-First-Post/It-works/</id>
+            <updated>2011-12-04T10:40:00Z</updated>
+            
+            <summary type="html">This is my first post.</summary>
+            <content type="html">&lt;p&gt;This is my first post.&lt;/p&gt;
 
 &lt;p&gt;This is a &lt;em&gt;Test&lt;/em&gt;&lt;/p&gt;
 
