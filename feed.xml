@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://cinghiopinghio.github.io/" />
     <link rel="self" href="http://cinghiopinghio.github.io/feed.xml" type="application/atom+xml" />
     <id>http://cinghiopinghio.github.io/</id>
-    <updated>2014-06-19T12:29:12Z</updated>
+    <updated>2014-10-15T12:58:52Z</updated>
     
     <author>
         <name>Cinghio Pinghio</name>
@@ -15,23 +15,64 @@
     
     
         <entry>
-            <title>It works!</title>
-            <link rel="alternate" href="http://cinghiopinghio.github.io/news/2011-12-04-It-works/" type="text/html" />
-            <id>http://cinghiopinghio.github.io/news/2011-12-04-It-works/</id>
-            <updated>2011-12-04T12:17:00Z</updated>
+            <title>Re-enable usb mass storage in CM 10.1 nightly LG p970</title>
+            <link rel="alternate" href="http://cinghiopinghio.github.io/log/2014-09-09-Re-enable-usb-mass-storage-in-CM-10.1-nightly-LG-p970/cm-droid-usb.html" type="text/html" />
+            <id>http://cinghiopinghio.github.io/log/2014-09-09-Re-enable-usb-mass-storage-in-CM-10.1-nightly-LG-p970/cm-droid-usb.html</id>
+            <updated>2014-09-09T12:52:00Z</updated>
             
-            <summary type="html">This is a &lt;em&gt;Test&lt;/em&gt;&lt;br&gt;
-&lt;pre&gt;&lt;code data-lang=&#34;html&#34;&gt;&lt;dl&gt;&lt;br&gt;
-    &lt;dt&gt;[Quickstart][quickstart]&lt;/dt&gt;&lt;br&gt;
-    &lt;dd&gt;</summary>
-            <content type="html">&lt;p&gt;This is a &lt;em&gt;Test&lt;/em&gt;&lt;br&gt;
-&lt;pre&gt;&lt;code data-lang=&#34;html&#34;&gt;&lt;dl&gt;&lt;br&gt;
-    &lt;dt&gt;[Quickstart][quickstart]&lt;/dt&gt;&lt;br&gt;
-    &lt;dd&gt;&lt;/p&gt;
+            <summary type="html">Con l&amp;#39;ultimo upgrade di cyanogenmod, non sono più riuscito a far funzionare
+il telefono come una UMS (Usb Mass Storage).
+Seguendo le istruzioni del &lt;a href=&#34;http://forum.cyanogenmod.org/topic/64912-unable-to-connect-to-pc-with-usb/&#34;&gt;forum&lt;/a&gt;
+sembra che tutto sia tornato alla normalità.</summary>
+            <content type="html">&lt;p&gt;Con l&amp;#39;ultimo upgrade di cyanogenmod, non sono più riuscito a far funzionare
+il telefono come una UMS (Usb Mass Storage).
+Seguendo le istruzioni del &lt;a href=&#34;http://forum.cyanogenmod.org/topic/64912-unable-to-connect-to-pc-with-usb/&#34;&gt;forum&lt;/a&gt;
+sembra che tutto sia tornato alla normalità.&lt;/p&gt;
 
-&lt;p&gt;&amp;#91;quickstart]: http://&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I recently update to 10.1 and had the same problem and solve it using the procedure below&lt;/p&gt;
 
-&lt;p&gt;Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;turn off the optimus&lt;/li&gt;
+&lt;li&gt;connect the USB cable to a PC (Linux in my case)&lt;/li&gt;
+&lt;li&gt;press &amp;ldquo;G&amp;rdquo; , &amp;ldquo;VOLDOWN&amp;rdquo;  &amp;amp; &amp;ldquo;POWER&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;when the P970 starts , release &amp;ldquo;POWER&amp;rdquo;, don&amp;rsquo;t depress the other&lt;/li&gt;
+&lt;li&gt;at the end of power on , the P970 is recognized as a mass storage (you can depress the button)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;in my case , i think that a accidently press the G key during a restart in recovery mode, and
+here are the linux message before reboot&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+        </entry>
+    
+        <entry>
+            <title>Primo</title>
+            <link rel="alternate" href="http://cinghiopinghio.github.io/log/2014-09-01-Primo/primo.html" type="text/html" />
+            <id>http://cinghiopinghio.github.io/log/2014-09-01-Primo/primo.html</id>
+            <updated>2014-09-01T12:42:00Z</updated>
+            
+            <summary type="html">Da molto tempo coltivavo l&amp;#39;idea di costruire un sito personale che funzionasse da contenitore per ca&amp;hellip;te, 
+foto, codici, segnalibri, ogni sorta di cosa che mi attraversa il cranio.
+E&amp;#39; giunto il tempo di farlo.</summary>
+            <content type="html">&lt;p&gt;Da molto tempo coltivavo l&amp;#39;idea di costruire un sito personale che funzionasse da contenitore per ca&amp;hellip;te, 
+foto, codici, segnalibri, ogni sorta di cosa che mi attraversa il cranio.
+E&amp;#39; giunto il tempo di farlo.&lt;/p&gt;
+
+&lt;p&gt;Lo scopo dell&amp;#39;impresa è duplice:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;cercare di porre rimedio alla volatilità della mia memoria.&lt;/li&gt;
+&lt;li&gt;dare accessibilità ad altri di decidere se le cose che faccio/dico
+possano essere interessanti per loro.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A questo aggiungerei data la mia natura nerd:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;divertirmi con un generatore di siti statici (in questo caso 
+&lt;a href=&#34;http://mynt.uhnomoli.com/&#34;&gt;mynt&lt;/a&gt;) e il workflow di &lt;code&gt;git&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
         </entry>
     
