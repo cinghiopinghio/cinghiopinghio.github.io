@@ -1,8 +1,12 @@
 @import 'base';
 
+html {
+  margin:0;
+}
 
 body {
   margin:0;
+  //background-color: $color-main;
 }
 
 nav {
@@ -17,6 +21,8 @@ nav {
 }
 
 .splash {
+  //background: url("../images/splash.jpg") no-repeat center center fixed;
+  //background-size: cover;
   width:100%;
   position:fixed;
   top:1em;
