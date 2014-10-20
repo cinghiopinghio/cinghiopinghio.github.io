@@ -16,10 +16,17 @@ nav {
   }
 }
 
+.nav {
+  li{
+    display:inline;
+    padding:1em;
+  }
+}
+
 .splash {
   width:100%;
   position:fixed;
-  top:1em;
+  top:2em;
   height:20em;
   background-color: $color-main;
   @include media ($mmobile){
