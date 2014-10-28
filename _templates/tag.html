@@ -4,16 +4,14 @@
 {% set title = 'Blog &rsaquo; Archives  &rsaquo; ' ~ tag.name %}
 
 {% block breadcrumbs %}
-    <ul id="breadcrumbs">
-        <li><a href="{{ get_url() }}" data-pjax="#content">Blog</a><span>&rsaquo;</span></li>
-        <li><a href="{{ get_url('archives/') }}" data-pjax="#content">Archives</a><span>&rsaquo;</span></li>
-        <li>{{ tag.name }}</li>
-    </ul>
+<p>
+    <a href="{{ get_url() }}" data-pjax="#content">Blog</a><span>&rsaquo;</span>
+    <a href="{{ get_url('archives/') }}" data-pjax="#content">Archives</a><span>&rsaquo;</span>
+        {{ tag.name }}
+</p>
 {% endblock %}
 
 {% block content %}
-    Log files in tag:
-    <h1>[{{ tag.name }}]</h1>
     {% for archive in tag.archives|values %}
         <dl class="horizontal archives">
             <dt class="archives-year"><a href="{{ get_url(archive.url)

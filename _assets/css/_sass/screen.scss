@@ -6,7 +6,6 @@ html {
 
 body {
   margin:0;
-  //background-color: $color-main;
 }
 
 nav {
@@ -21,6 +20,14 @@ nav {
 }
 
 .nav {
+  background-color: $color-complement-2;
+  ul{
+    margin:0;
+    padding:1em;
+    @include media ($mmobile){
+      padding: 1em 10%;
+    }
+  }
   li{
     display:inline;
     padding:1em;
@@ -28,21 +35,24 @@ nav {
 }
 
 .splash {
-  //background: url("../images/splash.jpg") no-repeat center center fixed;
-  //background-size: cover;
   width:100%;
-  position:fixed;
-  top:2em;
-  height:20em;
-  background-color: $color-main;
+  padding-left:25%;
+  padding-right:25%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  text-align: center;
+  background-color: $gray3;
+  color: $gray1;
+  h1 { color: $color-primary-0;}
+  img { width: 80%; }
   @include media ($mmobile){
-    top:5em;
-    height:30em;
+    img { width: 50%; }
   }
 }
-.content {
-  width: 50%;
-  position:absolute;
-  bottom:1em;
-  left:1em;
+
+.splash2 {
+  width:100%;
+  padding-top:5%;
+  padding-bottom:10%;
+  background-color:$color-complement-1;
 }
