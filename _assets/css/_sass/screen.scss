@@ -6,53 +6,20 @@ html {
 
 body {
   margin:0;
+  background-color:$color-primary-0;
 }
 
 nav {
-	background-color: $color-main;
-	text-align:center;
-	padding:1em;
+  background-color: $color-main;
+  text-align:center;
+  padding:1em;
+  border: 1em $gray2;
+  border-bottom-style: solid;
   @include media ($mmobile){
 	  position:fixed;
 	  height:100%;
 	  text-align:right;
+          border-bottom-style:none;
+          border-right-style:solid;
   }
-}
-
-.nav {
-  background-color: $color-complement-2;
-  ul{
-    margin:0;
-    padding:1em;
-    @include media ($mmobile){
-      padding: 1em 10%;
-    }
-  }
-  li{
-    display:inline;
-    padding:1em;
-  }
-}
-
-.splash {
-  width:100%;
-  padding-left:25%;
-  padding-right:25%;
-  padding-top: 10%;
-  padding-bottom: 10%;
-  text-align: center;
-  background-color: $gray3;
-  color: $gray1;
-  h1 { color: $color-primary-0;}
-  img { width: 80%; }
-  @include media ($mmobile){
-    img { width: 50%; }
-  }
-}
-
-.splash2 {
-  width:100%;
-  padding-top:5%;
-  padding-bottom:10%;
-  background-color:$color-complement-1;
 }
