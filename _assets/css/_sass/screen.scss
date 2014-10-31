@@ -2,24 +2,28 @@
 
 html {
   margin:0;
+  color:white;
 }
 
 body {
   margin:0;
-  background-color:$color-primary-0;
+  background-color:$gray3;
 }
 
 nav {
-  background-color: $color-main;
+  background-color: $gray3;
   text-align:center;
   padding:1em;
-  border: 1em $gray2;
-  border-bottom-style: solid;
   @include media ($mmobile){
 	  position:fixed;
 	  height:100%;
 	  text-align:right;
-          border-bottom-style:none;
-          border-right-style:solid;
   }
+}
+
+.bottom-line {
+	margin-bottom:0px;
+}
+.post-list {
+	list-style-type:none;
 }

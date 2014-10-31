@@ -94,3 +94,16 @@ html {
   font-family:$base-font-family;
   font-weight:300;
 }
+
+a{
+  color: $color-secondary-2-2;
+  font-weight: 400;
+}
+
+a:hover {
+  color: $gray0;
+}
+
+a:hover img {
+  @include background-image( radial-gradient($color-secondary-2-0, $gray3) );
+}
