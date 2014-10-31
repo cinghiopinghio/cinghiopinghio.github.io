@@ -76,7 +76,8 @@ template {
  * Remove the gray background color from active links in IE 10.
  */
 a {
-  background-color: transparent; }
+  background-color: transparent;
+  text-decoration: none; }
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
@@ -438,6 +439,10 @@ body {
         width: 65.05695%; }
         body .main section:last-child {
           margin-right: 0; } }
+
+html {
+  font-family: "DejaVu Sans", sans-serif;
+  font-weight: 300; }
 
 html {
   margin: 0; }

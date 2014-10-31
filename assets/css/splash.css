@@ -76,7 +76,8 @@ template {
  * Remove the gray background color from active links in IE 10.
  */
 a {
-  background-color: transparent; }
+  background-color: transparent;
+  text-decoration: none; }
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
@@ -439,6 +440,10 @@ body {
         body .main section:last-child {
           margin-right: 0; } }
 
+html {
+  font-family: "DejaVu Sans", sans-serif;
+  font-weight: 300; }
+
 .nav {
   background-color: #77B582; }
   .nav ul {
@@ -451,13 +456,15 @@ body {
     display: inline;
     padding: 1em; }
 
-.splash {
+.splash, .splash2 {
   width: 100%;
   padding-left: 25%;
   padding-right: 25%;
   padding-top: 10%;
   padding-bottom: 10%;
-  text-align: center;
+  text-align: center; }
+
+.splash {
   background-color: #333333;
   color: #777777; }
   .splash h1 {
@@ -469,7 +476,14 @@ body {
       width: 50%; } }
 
 .splash2 {
-  width: 100%;
-  padding-top: 5%;
-  padding-bottom: 10%;
   background-color: #9BE2A8; }
+
+h1 {
+  font-size: 200%;
+  font-weight: 400; }
+
+p {
+  font-size: 150%; }
+
+a {
+  font-weight: 400; }
