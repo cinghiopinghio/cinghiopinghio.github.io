@@ -439,23 +439,37 @@ body {
         body .main section:last-child {
           margin-right: 0; } }
 
-html {
-  margin: 0; }
+.nav {
+  background-color: #77B582; }
+  .nav ul {
+    margin: 0;
+    padding: 1em; }
+    @media screen and (min-width: 50em) {
+      .nav ul {
+        padding: 1em 10%; } }
+  .nav li {
+    display: inline;
+    padding: 1em; }
 
-body {
-  margin: 0;
-  background-color: #A7605A; }
-
-nav {
-  background-color: #5FB96A;
+.splash {
+  width: 100%;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 10%;
+  padding-bottom: 10%;
   text-align: center;
-  padding: 1em;
-  border: 1em #555555;
-  border-bottom-style: solid; }
+  background-color: #333333;
+  color: #777777; }
+  .splash h1 {
+    color: #A7605A; }
+  .splash img {
+    width: 80%; }
   @media screen and (min-width: 50em) {
-    nav {
-      position: fixed;
-      height: 100%;
-      text-align: right;
-      border-bottom-style: none;
-      border-right-style: solid; } }
+    .splash img {
+      width: 50%; } }
+
+.splash2 {
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  background-color: #9BE2A8; }
