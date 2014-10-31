@@ -84,3 +84,13 @@ body{
     }
   }
 }
+
+
+$base-font-family: 'DejaVu Sans', sans-serif;
+$code-font-family: 'DejaVu Mono', monospace;
+$alt-font-family:  'DejaVu', serif;
+
+html {
+  font-family:$base-font-family;
+  font-weight:300;
+}
