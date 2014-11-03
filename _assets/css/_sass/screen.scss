@@ -7,11 +7,11 @@ html {
 
 body {
   margin:0;
-  background-color:$gray3;
+  background-color:$color-gray2;
 }
 
 nav {
-  background-color: $gray3;
+  background-color: $color-gray2;
   text-align:center;
   padding:1em;
   @include media ($mmobile){

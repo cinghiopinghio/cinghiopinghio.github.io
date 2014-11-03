@@ -2,7 +2,7 @@
 
 
 .nav {
-  background-color: $color-complement-2;
+  background-color: $color-main;
   ul{
     margin:0;
     padding:1em;
@@ -27,9 +27,9 @@
 
 .splash {
   @extend %splash;
-  background-color: $gray3;
-  color: $gray1;
-  h1 { color: $color-primary-0;}
+  background-color: $color-gray2;
+  color: $color-gray1;
+  h1 { color: $color-sec;}
   img { width: 80%; }
   @include media ($mmobile){
     img { width: 50%; }
@@ -38,7 +38,7 @@
 
 .splash2 {
   @extend %splash;
-  background-color:$color-complement-1;
+  background-color: darken($color-main,$darken1);
 }
 
 
