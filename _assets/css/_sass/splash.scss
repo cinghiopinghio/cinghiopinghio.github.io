@@ -14,6 +14,10 @@
     display:inline;
     padding:1em;
   }
+  a {
+    color: lighten($color-main,$lighten2);
+    font-weight:600;
+  }
 }
 
 %splash {
@@ -27,12 +31,12 @@
 
 .splash {
   @extend %splash;
-  background-color: $color-gray2;
+  background-color: $color-bg;
   color: $color-gray1;
   h1 { color: $color-sec;}
-  img { width: 80%; }
+  img { width: 60%; }
   @include media ($mmobile){
-    img { width: 50%; }
+    img { width: 40%; }
   }
 }
 

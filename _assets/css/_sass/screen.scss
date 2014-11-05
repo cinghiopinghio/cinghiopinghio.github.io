@@ -2,22 +2,26 @@
 
 html {
   margin:0;
-  color:white;
+  color: $color-text;
 }
 
 body {
   margin:0;
-  background-color:$color-gray2;
+  background-color:$color-bg;
 }
 
 nav {
-  background-color: $color-gray2;
+  background-color: $color-bg;
   text-align:center;
   padding:1em;
   @include media ($mmobile){
 	  position:fixed;
 	  height:100%;
 	  text-align:right;
+  }
+
+  a:hover img {
+    @include background-image( radial-gradient($color-main, $color-bg) );
   }
 }
 
@@ -26,4 +30,12 @@ nav {
 }
 .post-list {
 	list-style-type:none;
+}
+
+blockquote {
+	font-family: $alt-font-family;
+	font-weight: 300;
+	background-color: lighten($color-bg,$lighten1);
+	padding:1em;
+	color: darken($color-text,$darken1);
 }
