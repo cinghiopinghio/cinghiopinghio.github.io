@@ -433,7 +433,6 @@ body {
           margin-right: 0; } }
 
 html {
-<<<<<<< HEAD
   font-family: "DejaVu Sans", sans-serif; }
 
 a {
@@ -452,32 +451,6 @@ body {
 
 nav {
   background-color: #1e1e1e;
-=======
-  font-family: "DejaVu Sans", sans-serif;
-  font-weight: 300; }
-
-a {
-  color: #648794;
-  font-weight: 400; }
-
-a:hover {
-  color: #999999; }
-
-a:hover img {
-  background-image: -webkit-radial-gradient(#3A5C69, #333333);
-  background-image: radial-gradient(#3A5C69, #333333); }
-
-html {
-  margin: 0;
-  color: white; }
-
-body {
-  margin: 0;
-  background-color: #333333; }
-
-nav {
-  background-color: #333333;
->>>>>>> c0cfa924f5d7cd8dc6f3291bb9e2859c900f53cb
   text-align: center;
   padding: 1em; }
   @media screen and (min-width: 50em) {
@@ -485,19 +458,15 @@ nav {
       position: fixed;
       height: 100%;
       text-align: right; } }
-<<<<<<< HEAD
   nav a:hover img {
     background-image: -webkit-radial-gradient(#367341, #1e1e1e);
     background-image: radial-gradient(#367341, #1e1e1e); }
-=======
->>>>>>> c0cfa924f5d7cd8dc6f3291bb9e2859c900f53cb
 
 .bottom-line {
   margin-bottom: 0px; }
 
 .post-list {
   list-style-type: none; }
-<<<<<<< HEAD
 
 blockquote {
   font-family: "DejaVu", serif;
@@ -505,5 +474,3 @@ blockquote {
   background-color: #383838;
   padding: 1em;
   color: #9b9b9b; }
-=======
->>>>>>> c0cfa924f5d7cd8dc6f3291bb9e2859c900f53cb
