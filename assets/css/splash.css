@@ -357,6 +357,17 @@ td,
 th {
   padding: 0; }
 
+<<<<<<< HEAD
+=======
+/* Palette URL: http://paletton.com/#uid=7030z0keIkVa5LJaRtCgjcWk07i */
+/* Feel free to copy&paste color codes to your application */
+/* MIXINS */
+/* As hex codes */
+/* Main Primary color */
+/* Main Secondary color (1) */
+/* Main Secondary color (2) */
+/* Main Complement color */
+>>>>>>> c0cfa924f5d7cd8dc6f3291bb9e2859c900f53cb
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -433,6 +444,7 @@ body {
           margin-right: 0; } }
 
 html {
+<<<<<<< HEAD
   font-family: "DejaVu Sans", sans-serif; }
 
 a {
@@ -443,6 +455,24 @@ a:hover {
 
 .nav {
   background-color: #367341; }
+=======
+  font-family: "DejaVu Sans", sans-serif;
+  font-weight: 300; }
+
+a {
+  color: #648794;
+  font-weight: 400; }
+
+a:hover {
+  color: #999999; }
+
+a:hover img {
+  background-image: -webkit-radial-gradient(#3A5C69, #333333);
+  background-image: radial-gradient(#3A5C69, #333333); }
+
+.nav {
+  background-color: #77B582; }
+>>>>>>> c0cfa924f5d7cd8dc6f3291bb9e2859c900f53cb
   .nav ul {
     margin: 0;
     padding: 1em; }
@@ -452,9 +482,12 @@ a:hover {
   .nav li {
     display: inline;
     padding: 1em; }
+<<<<<<< HEAD
   .nav a {
     color: #5cb36c;
     font-weight: 600; }
+=======
+>>>>>>> c0cfa924f5d7cd8dc6f3291bb9e2859c900f53cb
 
 .splash, .splash2 {
   width: 100%;
@@ -465,6 +498,7 @@ a:hover {
   text-align: center; }
 
 .splash {
+<<<<<<< HEAD
   background-color: #1e1e1e;
   color: #969696; }
   .splash h1 {
@@ -477,6 +511,20 @@ a:hover {
 
 .splash2 {
   background-color: #26502d; }
+=======
+  background-color: #333333;
+  color: #777777; }
+  .splash h1 {
+    color: #A7605A; }
+  .splash img {
+    width: 80%; }
+  @media screen and (min-width: 50em) {
+    .splash img {
+      width: 50%; } }
+
+.splash2 {
+  background-color: #9BE2A8; }
+>>>>>>> c0cfa924f5d7cd8dc6f3291bb9e2859c900f53cb
 
 h1 {
   font-size: 200%;
