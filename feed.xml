@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://cinghiopinghio.github.io/" />
     <link rel="self" href="http://cinghiopinghio.github.io/feed.xml" type="application/atom+xml" />
     <id>http://cinghiopinghio.github.io/</id>
-    <updated>2014-10-15T13:00:15Z</updated>
+    <updated>2014-11-05T10:23:44Z</updated>
     
     <author>
         <name>Cinghio Pinghio</name>
@@ -13,6 +13,30 @@
         <uri>http://cinghiopinghio.github.io/</uri>
     </author>
     
+    
+        <entry>
+            <title>Sincronizzarmi</title>
+            <link rel="alternate" href="http://cinghiopinghio.github.io/log/2014-10-28-Sincronizzarmi/syncthing.html" type="text/html" />
+            <id>http://cinghiopinghio.github.io/log/2014-10-28-Sincronizzarmi/syncthing.html</id>
+            <updated>2014-10-28T13:53:00Z</updated>
+            
+            <summary type="html">Da sempre lavoro con piú di un computer e da sempre mi sono imbattuto nel
+problema annoso di sincronizzare le varie postazioni.
+Il problema si divide in due parti:</summary>
+            <content type="html">&lt;p&gt;Da sempre lavoro con piú di un computer e da sempre mi sono imbattuto nel
+problema annoso di sincronizzare le varie postazioni.
+Il problema si divide in due parti:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;creare un ambiente di lavoro &lt;em&gt;uniforme&lt;/em&gt;, cosí che spostarsi da una
+macchina all&amp;#39;altra non sia un costante shock;&lt;/li&gt;
+&lt;li&gt;lavorare sugli &lt;em&gt;stessi&lt;/em&gt; file su entrambe le macchine senza che questo
+includa vivere perennemente attaccati ad una USB.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</content>
+        </entry>
     
         <entry>
             <title>Re-enable usb mass storage in CM 10.1 nightly LG p970</title>

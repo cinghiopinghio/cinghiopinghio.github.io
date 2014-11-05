@@ -441,36 +441,49 @@ a {
 a:hover {
   color: #c03430; }
 
-html {
-  margin: 0;
-  color: #b4b4b4; }
+.nav {
+  background-color: #367341; }
+  .nav ul {
+    margin: 0;
+    padding: 1em; }
+    @media screen and (min-width: 50em) {
+      .nav ul {
+        padding: 1em 10%; } }
+  .nav li {
+    display: inline;
+    padding: 1em; }
+  .nav a {
+    color: #5cb36c;
+    font-weight: 600; }
 
-body {
-  margin: 0;
-  background-color: #1e1e1e; }
+.splash, .splash2 {
+  width: 100%;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center; }
 
-nav {
+.splash {
   background-color: #1e1e1e;
-  text-align: center;
-  padding: 1em; }
+  color: #969696; }
+  .splash h1 {
+    color: #c03430; }
+  .splash img {
+    width: 60%; }
   @media screen and (min-width: 50em) {
-    nav {
-      position: fixed;
-      height: 100%;
-      text-align: right; } }
-  nav a:hover img {
-    background-image: -webkit-radial-gradient(#367341, #1e1e1e);
-    background-image: radial-gradient(#367341, #1e1e1e); }
+    .splash img {
+      width: 40%; } }
 
-.bottom-line {
-  margin-bottom: 0px; }
+.splash2 {
+  background-color: #26502d; }
 
-.post-list {
-  list-style-type: none; }
+h1 {
+  font-size: 200%;
+  font-weight: 400; }
 
-blockquote {
-  font-family: "DejaVu", serif;
-  font-weight: 300;
-  background-color: #383838;
-  padding: 1em;
-  color: #9b9b9b; }
+p {
+  font-size: 150%; }
+
+a {
+  font-weight: 400; }
