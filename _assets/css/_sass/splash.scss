@@ -2,7 +2,7 @@
 
 
 .nav {
-  background-color: $color-main;
+  background-color: darken($color-main,$darken2);
   ul{
     margin:0;
     padding:1em;
@@ -13,6 +13,9 @@
   li{
     display:inline;
     padding:1em;
+  }
+  a {
+    color: $color-sec;
   }
 }
 
@@ -38,7 +41,9 @@
 
 .splash2 {
   @extend %splash;
-  background-color: darken($color-main,$darken1);
+  background-color: darken($color-main,$darken2);
+  background-color: $color-main;
+  color: hsl(130deg,53%,31%);
 }
 
 

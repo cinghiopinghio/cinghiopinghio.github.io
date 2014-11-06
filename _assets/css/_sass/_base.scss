@@ -6,13 +6,15 @@
 // Common
 
 // COLORS
-$color-main: $l_green;
+$color-main: $d_cyan;
 $color-sec : $l_red;
 $color-gray1: $l_gray;
 $color-gray2: $l_black;
 
 $max-width : 100%;
+
 @import 'neat/neat';
+
 $mmobile: new-breakpoint(min-width $breakpoint-small 12);
 $mmedium: new-breakpoint(min-width $breakpoint-medium 12);
 $mbig: new-breakpoint(min-width $breakpoint-big 12);
@@ -22,45 +24,11 @@ $base-font-family: 'DejaVu Sans', sans-serif;
 $code-font-family: 'DejaVu Mono', monospace;
 $alt-font-family:  'DejaVu', serif;
 
-//// grid
-body{
-  @include outer-container;
-  width:100%;
-  @include media ($mmobile){
-    nav{
-      @include span-columns(4);
-    }
-    .main{
-      @include span-columns(7);
-      @include shift(4);
-      aside {
-        @include span-columns(2 of 7);
-      }
-      section{
-        @include span-columns(5 of 7);
-      }
-    }
-  }
-  @include media ($mmedium){
-    nav{
-      @include span-columns(3);
-    }
-    .main{
-      @include span-columns(6 of 12);
-      @include shift(3);
-      aside {
-        @include span-columns(2 of 6);
-      }
-      section{
-        @include span-columns(4 of 6);
-      }
-    }
-  }
-}
 
 html {
   font-family:$base-font-family;
   font-weight:300;
+  background-color:$color-gray2;
 }
 
 a{
@@ -73,5 +41,5 @@ a:hover {
 }
 
 a:hover img {
-  @include background-image( radial-gradient($color-main, $color-gray1) );
+  @include background-image( radial-gradient($color-main, $color-gray2) );
 }
