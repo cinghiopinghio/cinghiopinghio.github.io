@@ -3,6 +3,9 @@
 {% block content %}
   
   <article>
+    <h1>LOGS:</h1>
+    Tags in ordine alfabetico:
+    {% for tag in posts.tags %}<a href="{{ get_url(posts.tags[tag].url) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}
     <ul class='post-list'>
       {% for post in posts %}
         <li>

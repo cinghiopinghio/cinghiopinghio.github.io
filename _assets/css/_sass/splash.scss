@@ -1,6 +1,5 @@
 @import 'base';
 
-
 .nav {
   background-color: darken($color-main,$darken2);
   ul{
@@ -13,9 +12,6 @@
   li{
     display:inline;
     padding:1em;
-  }
-  a {
-    color: $color-sec;
   }
 }
 
@@ -30,20 +26,23 @@
 
 .splash {
   @extend %splash;
-  background-color: $color-gray2;
+  background-color: $color-bg;
   color: $color-gray1;
   h1 { color: $color-sec;}
-  img { width: 80%; }
+  img { width: 60%; }
   @include media ($mmobile){
-    img { width: 50%; }
+    img { width: 40%; }
   }
+}
+
+
+html {
+  background-color: darken($color-main,$darken2);
 }
 
 .splash2 {
   @extend %splash;
   background-color: darken($color-main,$darken2);
-  background-color: $color-main;
-  color: hsl(130deg,53%,31%);
 }
 
 
@@ -56,5 +55,9 @@ p {
 }
 
 a {
-  font-weight: 400;
+  color: lighten($color-main,$lighten1);
+  font-weight:600;
+}
+a:hover {
+  color: $color_sec;
 }
