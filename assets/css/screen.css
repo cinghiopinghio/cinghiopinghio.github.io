@@ -405,49 +405,18 @@ body {
       width: 48.82117%;
       margin-left: 25.58941%; }
       body .main:last-child {
-<<<<<<< HEAD
         margin-right: 0; } }
 
 html {
   margin: 0;
   color: #cccccc; }
-=======
-        margin-right: 0; }
-      body .main aside {
-        float: left;
-        display: block;
-        margin-right: 4.82916%;
-        width: 30.11389%; }
-        body .main aside:last-child {
-          margin-right: 0; }
-      body .main section {
-        float: left;
-        display: block;
-        margin-right: 4.82916%;
-        width: 65.05695%; }
-        body .main section:last-child {
-          margin-right: 0; } }
-
-html {
-  font-family: "DejaVu Sans", sans-serif; }
-
-a {
-  color: #367341; }
-
-a:hover {
-  color: #c03430; }
-
-html {
-  margin: 0;
-  color: #b4b4b4; }
->>>>>>> 70bb7a6343dc32c759be4c9e282de25c93e9364f
 
 body {
   margin: 0;
-  background-color: #1e1e1e; }
+  background-color: #333333; }
 
 nav {
-  background-color: #1e1e1e;
+  background-color: #333333;
   text-align: center;
   padding: 1em; }
   @media screen and (min-width: 50em) {
@@ -456,18 +425,12 @@ nav {
       height: 100%;
       text-align: right; } }
   nav a:hover img {
-<<<<<<< HEAD
     background-image: -webkit-radial-gradient(#59a666, #333333);
     background-image: radial-gradient(#59a666, #333333); }
-=======
-    background-image: -webkit-radial-gradient(#367341, #1e1e1e);
-    background-image: radial-gradient(#367341, #1e1e1e); }
->>>>>>> 70bb7a6343dc32c759be4c9e282de25c93e9364f
 
 .bottom-line {
   margin-bottom: 0px; }
 
-<<<<<<< HEAD
 blockquote {
   font-family: "DejaVu", serif;
   font-weight: 300;
@@ -483,14 +446,3 @@ a:hover {
 
 article img {
   width: 100%; }
-=======
-.post-list {
-  list-style-type: none; }
-
-blockquote {
-  font-family: "DejaVu", serif;
-  font-weight: 300;
-  background-color: #383838;
-  padding: 1em;
-  color: #9b9b9b; }
->>>>>>> 70bb7a6343dc32c759be4c9e282de25c93e9364f

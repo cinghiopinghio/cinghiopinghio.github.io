@@ -364,21 +364,9 @@ th {
 
 html {
   font-family: "DejaVu Sans", sans-serif; }
-<<<<<<< HEAD
 
 .nav {
   background-color: #36633d; }
-=======
-
-a {
-  color: #367341; }
-
-a:hover {
-  color: #c03430; }
-
-.nav {
-  background-color: #367341; }
->>>>>>> 70bb7a6343dc32c759be4c9e282de25c93e9364f
   .nav ul {
     margin: 0;
     padding: 1em; }
@@ -388,9 +376,6 @@ a:hover {
   .nav li {
     display: inline;
     padding: 1em; }
-  .nav a {
-    color: #5cb36c;
-    font-weight: 600; }
 
 .splash, .splash2 {
   width: 100%;
@@ -401,34 +386,21 @@ a:hover {
   text-align: center; }
 
 .splash {
-<<<<<<< HEAD
   background-color: #333333;
   color: #666666; }
   .splash h1 {
     color: #a65c59; }
-=======
-  background-color: #1e1e1e;
-  color: #969696; }
-  .splash h1 {
-    color: #c03430; }
->>>>>>> 70bb7a6343dc32c759be4c9e282de25c93e9364f
   .splash img {
     width: 60%; }
   @media screen and (min-width: 50em) {
     .splash img {
       width: 40%; } }
-<<<<<<< HEAD
 
 html {
   background-color: #36633d; }
 
 .splash2 {
   background-color: #36633d; }
-=======
-
-.splash2 {
-  background-color: #26502d; }
->>>>>>> 70bb7a6343dc32c759be4c9e282de25c93e9364f
 
 h1 {
   font-size: 200%;
