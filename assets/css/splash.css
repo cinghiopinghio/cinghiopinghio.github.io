@@ -357,106 +357,16 @@ td,
 th {
   padding: 0; }
 
-/* Palette URL: http://paletton.com/#uid=7030z0keIkVa5LJaRtCgjcWk07i */
-/* Feel free to copy&paste color codes to your application */
-/* MIXINS */
-/* As hex codes */
-/* Main Primary color */
-/* Main Secondary color (1) */
-/* Main Secondary color (2) */
-/* Main Complement color */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-body {
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%; }
-  body:after {
-    content: "";
-    display: table;
-    clear: both; }
-  @media screen and (min-width: 50em) {
-    body nav {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      body nav:last-child {
-        margin-right: 0; }
-    body .main {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 57.35098%;
-      margin-left: 34.11922%; }
-      body .main:last-child {
-        margin-right: 0; }
-      body .main aside {
-        float: left;
-        display: block;
-        margin-right: 4.11092%;
-        width: 25.63506%; }
-        body .main aside:last-child {
-          margin-right: 0; }
-      body .main section {
-        float: left;
-        display: block;
-        margin-right: 4.11092%;
-        width: 70.25402%; }
-        body .main section:last-child {
-          margin-right: 0; } }
-  @media screen and (min-width: 60em) {
-    body nav {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      body nav:last-child {
-        margin-right: 0; }
-    body .main {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%;
-      margin-left: 25.58941%; }
-      body .main:last-child {
-        margin-right: 0; }
-      body .main aside {
-        float: left;
-        display: block;
-        margin-right: 4.82916%;
-        width: 30.11389%; }
-        body .main aside:last-child {
-          margin-right: 0; }
-      body .main section {
-        float: left;
-        display: block;
-        margin-right: 4.82916%;
-        width: 65.05695%; }
-        body .main section:last-child {
-          margin-right: 0; } }
-
 html {
-  font-family: "DejaVu Sans", sans-serif;
-  font-weight: 300; }
-
-a {
-  color: #648794;
-  font-weight: 400; }
-
-a:hover {
-  color: #999999; }
-
-a:hover img {
-  background-image: -webkit-radial-gradient(#3A5C69, #333333);
-  background-image: radial-gradient(#3A5C69, #333333); }
+  font-family: "DejaVu Sans", sans-serif; }
 
 .nav {
-  background-color: #77B582; }
+  background-color: #36633d; }
   .nav ul {
     margin: 0;
     padding: 1em; }
@@ -477,17 +387,20 @@ a:hover img {
 
 .splash {
   background-color: #333333;
-  color: #777777; }
+  color: #666666; }
   .splash h1 {
-    color: #A7605A; }
+    color: #a65c59; }
   .splash img {
-    width: 80%; }
+    width: 60%; }
   @media screen and (min-width: 50em) {
     .splash img {
-      width: 50%; } }
+      width: 40%; } }
+
+html {
+  background-color: #36633d; }
 
 .splash2 {
-  background-color: #9BE2A8; }
+  background-color: #36633d; }
 
 h1 {
   font-size: 200%;
@@ -497,4 +410,8 @@ p {
   font-size: 150%; }
 
 a {
-  font-weight: 400; }
+  color: #7ab885;
+  font-weight: 600; }
+
+a:hover {
+  color: #a65c59; }

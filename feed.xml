@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://cinghiopinghio.github.io/" />
     <link rel="self" href="http://cinghiopinghio.github.io/feed.xml" type="application/atom+xml" />
     <id>http://cinghiopinghio.github.io/</id>
-    <updated>2014-10-31T14:01:12Z</updated>
+    <updated>2014-11-07T13:03:23Z</updated>
     
     <author>
         <name>Cinghio Pinghio</name>
@@ -13,6 +13,17 @@
         <uri>http://cinghiopinghio.github.io/</uri>
     </author>
     
+    
+        <entry>
+            <title>Valnoise</title>
+            <link rel="alternate" href="http://cinghiopinghio.github.io/log/2014-11-07-Valnoise/2014-11-7-valnoise.html" type="text/html" />
+            <id>http://cinghiopinghio.github.io/log/2014-11-07-Valnoise/2014-11-7-valnoise.html</id>
+            <updated>2014-11-07T13:01:15Z</updated>
+            
+            <summary type="html">&lt;img src=&#34;http://cinghiopinghio.github.io/assets/images/valnoise.jpg&#34; alt=&#34;Valnoise&#34;&gt;</summary>
+            <content type="html">&lt;p&gt;&lt;img src=&#34;http://cinghiopinghio.github.io/assets/images/valnoise.jpg&#34; alt=&#34;Valnoise&#34;&gt;&lt;/p&gt;
+</content>
+        </entry>
     
         <entry>
             <title>Sincronizzarmi</title>

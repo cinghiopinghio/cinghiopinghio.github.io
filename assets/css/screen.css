@@ -357,18 +357,13 @@ td,
 th {
   padding: 0; }
 
-/* Palette URL: http://paletton.com/#uid=7030z0keIkVa5LJaRtCgjcWk07i */
-/* Feel free to copy&paste color codes to your application */
-/* MIXINS */
-/* As hex codes */
-/* Main Primary color */
-/* Main Secondary color (1) */
-/* Main Secondary color (2) */
-/* Main Complement color */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
+
+html {
+  font-family: "DejaVu Sans", sans-serif; }
 
 body {
   max-width: 100%;
@@ -394,21 +389,7 @@ body {
       width: 57.35098%;
       margin-left: 34.11922%; }
       body .main:last-child {
-        margin-right: 0; }
-      body .main aside {
-        float: left;
-        display: block;
-        margin-right: 4.11092%;
-        width: 25.63506%; }
-        body .main aside:last-child {
-          margin-right: 0; }
-      body .main section {
-        float: left;
-        display: block;
-        margin-right: 4.11092%;
-        width: 70.25402%; }
-        body .main section:last-child {
-          margin-right: 0; } }
+        margin-right: 0; } }
   @media screen and (min-width: 60em) {
     body nav {
       float: left;
@@ -424,40 +405,11 @@ body {
       width: 48.82117%;
       margin-left: 25.58941%; }
       body .main:last-child {
-        margin-right: 0; }
-      body .main aside {
-        float: left;
-        display: block;
-        margin-right: 4.82916%;
-        width: 30.11389%; }
-        body .main aside:last-child {
-          margin-right: 0; }
-      body .main section {
-        float: left;
-        display: block;
-        margin-right: 4.82916%;
-        width: 65.05695%; }
-        body .main section:last-child {
-          margin-right: 0; } }
-
-html {
-  font-family: "DejaVu Sans", sans-serif;
-  font-weight: 300; }
-
-a {
-  color: #648794;
-  font-weight: 400; }
-
-a:hover {
-  color: #999999; }
-
-a:hover img {
-  background-image: -webkit-radial-gradient(#3A5C69, #333333);
-  background-image: radial-gradient(#3A5C69, #333333); }
+        margin-right: 0; } }
 
 html {
   margin: 0;
-  color: white; }
+  color: #cccccc; }
 
 body {
   margin: 0;
@@ -472,9 +424,25 @@ nav {
       position: fixed;
       height: 100%;
       text-align: right; } }
+  nav a:hover img {
+    background-image: -webkit-radial-gradient(#59a666, #333333);
+    background-image: radial-gradient(#59a666, #333333); }
 
 .bottom-line {
   margin-bottom: 0px; }
 
-.post-list {
-  list-style-type: none; }
+blockquote {
+  font-family: "DejaVu", serif;
+  font-weight: 300;
+  background-color: #4d4d4d;
+  padding: 1em;
+  color: #b3b3b3; }
+
+a {
+  color: #59a666; }
+
+a:hover {
+  color: #a65c59; }
+
+article img {
+  width: 100%; }
