@@ -2,6 +2,8 @@
 @import 'bourbon/bourbon';
 //@import 'base/base';
 @import 'defs';
+@import 'functions';
+@import 'fa/font-awesome';
 
 // Common
 
@@ -12,6 +14,15 @@ $color-bg:    hsl(0deg,0%,20%);
 $color-gray1: hsl(0deg,0%,40%);
 $color-gray2: hsl(0deg,0%,60%);
 $color-text:  hsl(0deg,0%,80%);
+
+$colors:(
+   main:  hsl(130deg,30%,50%),
+   sec:   hsl(2deg,30%,50%),
+   bg:    hsl(0deg,0%,20%),
+   gray1: hsl(0deg,0%,40%),
+   gray2: hsl(0deg,0%,60%),
+   text:  hsl(0deg,0%,80%)
+);
 
 $max-width : 100%;
 

@@ -2,6 +2,7 @@
 
 .nav {
   background-color: darken($color-main,$darken2);
+  background-color: darken(color(main),$darken2);
   ul{
     margin:0;
     padding:1em;

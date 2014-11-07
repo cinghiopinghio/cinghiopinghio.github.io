@@ -23,6 +23,10 @@ nav {
   a:hover img {
     @include background-image( radial-gradient($color-main, $color-bg) );
   }
+  li {
+    padding: 0.25em 0;
+    list-style-type: none;
+  }
 }
 
 .bottom-line {
