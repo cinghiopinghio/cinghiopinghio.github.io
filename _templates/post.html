@@ -9,6 +9,8 @@
 	  {{ item.date }}{% if item.tags %} <span>&raquo;</span> {% for tag
           in item.tags %}<a href="{{ get_url(posts.tags[tag].url) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}
 
+    <article>
     {{ item.content }}
+    </article>
 
 {% endblock %}

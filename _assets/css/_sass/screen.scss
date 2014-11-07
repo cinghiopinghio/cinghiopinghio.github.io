@@ -28,9 +28,6 @@ nav {
 .bottom-line {
 	margin-bottom:0px;
 }
-.post-list {
-	list-style-type:none;
-}
 
 blockquote {
   font-family: $alt-font-family;
@@ -47,4 +44,9 @@ a{
 a:hover {
   color: $color_sec;
 }
+
+article img{
+  width:100%;
+}
+
 
