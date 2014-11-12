@@ -10,8 +10,12 @@ build: sass
 sass: 
 	sass --update ./_assets/css/_sass:./_assets/css --cache-location /tmp/sass-cache --trace --sourcemap=none 
 
-deploy: build
+deploy: clean-build build
 	cd _build && git add -A && git ci -m "${TIME}" && git push origin master
+
+clean-build:
+	cd _build && git stash
+	cd _build && git pull
 
 
 serve: build 
