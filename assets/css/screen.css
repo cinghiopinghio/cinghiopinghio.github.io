@@ -2106,6 +2106,12 @@ blockquote {
 a {
   color: #59a666; }
 
+ul.breadcrumbs {
+  padding: 0; }
+  ul.breadcrumbs li {
+    list-style: none;
+    display: inline-block; }
+
 a:hover {
   color: #a65c59; }
 
