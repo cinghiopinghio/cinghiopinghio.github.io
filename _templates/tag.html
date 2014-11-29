@@ -21,7 +21,8 @@
                     {% for month in archive.months|values %}
                         {% for post in month %}
                             <dt class="archives-post-date">{{ post.timestamp|date('%b %d') }}</dt>
-                            <dd class="archives-post-title"><a href="{{ get_url(post.url) }}">{{ post.title }}</a></dd>
+			    <dd class="archives-post-title"><a href="{{ get_url(post.url) }}">
+					    <strong>{{ post.title }}</strong> </a></dd>
                             
                             {% if post.tags %}
                                 <dd class="archives-post-tags">Tagged

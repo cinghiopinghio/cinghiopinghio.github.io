@@ -1,8 +1,8 @@
 @import 'base';
 
-
 .nav {
-  background-color: $color-main;
+  background-color: darken($color-main,$darken2);
+  background-color: darken(color(main),$darken2);
   ul{
     margin:0;
     padding:1em;
@@ -13,10 +13,6 @@
   li{
     display:inline;
     padding:1em;
-  }
-  a {
-    color: lighten($color-main,$lighten2);
-    font-weight:600;
   }
 }
 
@@ -40,9 +36,14 @@
   }
 }
 
+
+html {
+  background-color: darken($color-main,$darken2);
+}
+
 .splash2 {
   @extend %splash;
-  background-color: darken($color-main,$darken1);
+  background-color: darken($color-main,$darken2);
 }
 
 
@@ -55,5 +56,9 @@ p {
 }
 
 a {
-  font-weight: 400;
+  color: lighten($color-main,$lighten1);
+  font-weight:600;
+}
+a:hover {
+  color: $color_sec;
 }

@@ -1,4 +1,5 @@
 @import 'base';
+@import 'struct';
 
 html {
   margin:0;
@@ -19,25 +20,29 @@ nav {
 	  height:100%;
 	  text-align:right;
   }
-
   a:hover img {
     @include background-image( radial-gradient($color-main, $color-bg) );
+  }
+  li {
+    padding: 0.25em 0;
+    list-style-type: none;
   }
 }
 
 .bottom-line {
 	margin-bottom:0px;
 }
-.post-list {
-	list-style-type:none;
-}
 
 blockquote {
-	font-family: $alt-font-family;
-	font-weight: 300;
-	background-color: lighten($color-bg,$lighten1);
-	padding:1em;
-	color: darken($color-text,$darken1);
+  font-family: $alt-font-family;
+  font-weight: 300;
+  background-color: lighten($color-bg,$lighten1);
+  padding:1em;
+  color: darken($color-text,$darken1);
+}
+
+a{
+  color: $color-main;
 }
 
 ul.breadcrumbs {
@@ -47,3 +52,12 @@ ul.breadcrumbs {
 		display:inline-block;
 	}
 }
+a:hover {
+  color: $color_sec;
+}
+
+article img{
+  width:100%;
+}
+
+

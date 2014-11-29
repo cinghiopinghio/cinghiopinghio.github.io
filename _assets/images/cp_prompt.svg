@@ -11,8 +11,9 @@
    width="248.33539"
    height="248.33539"
    id="svg2">
-  <defs
-     id="defs4" />
+  <defs id="defs4" >
+    <ref id="paramFill" param="color" default="blue"/>
+  </defs>
   <metadata
      id="metadata7">
     <rdf:RDF>

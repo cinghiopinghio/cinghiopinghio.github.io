@@ -1,0 +1,15 @@
+
+
+@function checkmap($map,$key) {
+  @if map-has-key($map, $key) {
+    @return map-get($map, $key);
+  }
+ 
+  @warn "Unknown `#{$key}` in given map.";
+  @return null;
+}
+
+
+@function color($key) {
+  @return checkmap($colors,$key);
+}
