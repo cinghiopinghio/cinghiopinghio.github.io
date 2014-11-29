@@ -39,3 +39,11 @@ blockquote {
 	padding:1em;
 	color: darken($color-text,$darken1);
 }
+
+ul.breadcrumbs {
+	padding:0;
+	li {
+		list-style:none;
+		display:inline-block;
+	}
+}
