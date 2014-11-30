@@ -12,7 +12,7 @@
           </h2>
           {{ post.date }}{% if post.tags %} <span>&raquo;</span> {% for tag
           in post.tags %}<a href="{{ get_url(posts.tags[tag].url) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}
-          {% if loop.first %}
+          {% if loop.index < 6 %}
           {{ post.content }}
           {% endif %}
       </section>
