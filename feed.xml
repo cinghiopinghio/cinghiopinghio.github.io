@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://cinghiopinghio.github.io/" />
     <link rel="self" href="http://cinghiopinghio.github.io/feed.xml" type="application/atom+xml" />
     <id>http://cinghiopinghio.github.io/</id>
-    <updated>2014-12-05T21:04:28Z</updated>
+    <updated>2014-12-05T21:41:28Z</updated>
     
     <author>
         <name>Cinghio Pinghio</name>
@@ -73,7 +73,7 @@
             <title>Sincronizzarmi</title>
             <link rel="alternate" href="http://cinghiopinghio.github.io/log/2014-10-28-Sincronizzarmi/syncthing.html" type="text/html" />
             <id>http://cinghiopinghio.github.io/log/2014-10-28-Sincronizzarmi/syncthing.html</id>
-            <updated>2014-10-28T13:53:00Z</updated>
+            <updated>2014-10-28T21:40:00Z</updated>
             
             <summary type="html">Da sempre lavoro con piú di un computer e da sempre mi sono imbattuto nel
 problema annoso di sincronizzare le varie postazioni.
@@ -88,8 +88,33 @@ macchina all&amp;#39;altra non sia un costante shock;&lt;/li&gt;
 &lt;li&gt;lavorare sugli &lt;em&gt;stessi&lt;/em&gt; file su entrambe le macchine senza che questo
 includa vivere perennemente attaccati ad una USB.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2&gt;Sincro delle configurazioni&lt;/h2&gt;
+&lt;p&gt;Nel caso delle configurazioni, la maggior parte di esse sono salvate in
+file di testo (i cosidetti dotfile) nella mia home.
+Come molti altri i miei dotfiles sono salvati su
+&lt;a href=&#34;https://github.com/cinghiopinghio/config-files&#34;&gt;GitHub&lt;/a&gt; e
+pubblicamente consultabili.&lt;/p&gt;
+&lt;h2&gt;Sincro dei files&lt;/h2&gt;
+&lt;p&gt;Qui la cosa si fa complicata, infatti molte sono le soluzioni ma la maggior
+parte di loro richiedono l&amp;#39;installazione di un server personale, di
+controllare un database, di dipendere da qualche impresa esterna:&lt;/p&gt;
 
-&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dropbox, Insync (Gdrive), Mega non sono state nemmeno prese in
+considerazione, anche se sono costretto ad utilizzare Dropbox per lavoro;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pyd.io/&#34;&gt;Pydio&lt;/a&gt;, &lt;a href=&#34;www.owncloud.org&#34;&gt;OwnCloud&lt;/a&gt; si presentano come
+alternative open source con una tonnellata di opzioni, ma richiedono
+di mantenere un server personale o ricadere nuovamente nelle mani di
+compagnie private;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.getsync.com&#34;&gt;Bittorrent Sync&lt;/a&gt;, non richiede un server
+centrale e si basa sulla tecnologia torrent, closed source.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La soluzione l&amp;#39;ho incontrata da poco: &lt;a href=&#34;http://syncthing.net/&#34;&gt;Syncthing&lt;/a&gt;.
+Uno sviluppo libero-open source che grazie alla tecnologia peer-to-peer
+costruisce una rete di computer che scambiano dati senza il bisogno di un
+sever centrale (a parte per scoprirsi in rete), esattamenre come funziona
+il torrent.&lt;/p&gt;
 </content>
         </entry>
     

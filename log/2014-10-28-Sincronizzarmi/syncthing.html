@@ -54,8 +54,33 @@ macchina all&#39;altra non sia un costante shock;</li>
 <li>lavorare sugli <em>stessi</em> file su entrambe le macchine senza che questo
 includa vivere perennemente attaccati ad una USB.</li>
 </ul>
+<h2>Sincro delle configurazioni</h2>
+<p>Nel caso delle configurazioni, la maggior parte di esse sono salvate in
+file di testo (i cosidetti dotfile) nella mia home.
+Come molti altri i miei dotfiles sono salvati su
+<a href="https://github.com/cinghiopinghio/config-files">GitHub</a> e
+pubblicamente consultabili.</p>
+<h2>Sincro dei files</h2>
+<p>Qui la cosa si fa complicata, infatti molte sono le soluzioni ma la maggior
+parte di loro richiedono l&#39;installazione di un server personale, di
+controllare un database, di dipendere da qualche impresa esterna:</p>
 
-<p>&hellip;</p>
+<ul>
+<li>Dropbox, Insync (Gdrive), Mega non sono state nemmeno prese in
+considerazione, anche se sono costretto ad utilizzare Dropbox per lavoro;</li>
+<li><a href="https://pyd.io/">Pydio</a>, <a href="www.owncloud.org">OwnCloud</a> si presentano come
+alternative open source con una tonnellata di opzioni, ma richiedono
+di mantenere un server personale o ricadere nuovamente nelle mani di
+compagnie private;</li>
+<li><a href="http://www.getsync.com">Bittorrent Sync</a>, non richiede un server
+centrale e si basa sulla tecnologia torrent, closed source.</li>
+</ul>
+
+<p>La soluzione l&#39;ho incontrata da poco: <a href="http://syncthing.net/">Syncthing</a>.
+Uno sviluppo libero-open source che grazie alla tecnologia peer-to-peer
+costruisce una rete di computer che scambiano dati senza il bisogno di un
+sever centrale (a parte per scoprirsi in rete), esattamenre come funziona
+il torrent.</p>
 
     </article>
 
