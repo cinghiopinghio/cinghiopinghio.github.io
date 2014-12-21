@@ -6,6 +6,8 @@ tags: [syncthing, code, git, dropbox]
 
 Da sempre lavoro con piú di un computer e da sempre mi sono imbattuto nel
 problema annoso di sincronizzare le varie postazioni.
+Comandi, aliases, scripts, documenti e chi più ne ha più ne metta.
+Quando sei al lavoroz
 Il problema si divide in due parti:
 
 - creare un ambiente di lavoro *uniforme*, cosí che spostarsi da una

@@ -9,6 +9,13 @@
 	  {{ item.date }}{% if item.tags %} <span>&raquo;</span> {% for tag
           in item.tags %}<a href="{{ get_url(posts.tags[tag].url) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}
 
+    {% if item.image %}
+    <figure>
+      <img src="{{ get_asset('images/logs/')+item.image }}"
+      alt="item.title" width=100%/>
+    </figure>
+    {% endif %}
+
     <article>
     {{ item.content }}
     </article>
