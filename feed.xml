@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://cinghiopinghio.github.io/" />
     <link rel="self" href="http://cinghiopinghio.github.io/feed.xml" type="application/atom+xml" />
     <id>http://cinghiopinghio.github.io/</id>
-    <updated>2014-12-21T14:40:06Z</updated>
+    <updated>2015-01-01T21:29:32Z</updated>
     
     <author>
         <name>Cinghio Pinghio</name>
@@ -15,10 +15,20 @@
     
     
         <entry>
+            <title>campo</title>
+            <link rel="alternate" href="http://cinghiopinghio.github.io/log/2015-01-01-campo/campo.html" type="text/html" />
+            <id>http://cinghiopinghio.github.io/log/2015-01-01-campo/campo.html</id>
+            <updated>2015-01-01T17:41:00Z</updated>
+            
+            
+            <content type="html"></content>
+        </entry>
+    
+        <entry>
             <title>pasta</title>
             <link rel="alternate" href="http://cinghiopinghio.github.io/log/2014-12-05-pasta/pasta.html" type="text/html" />
             <id>http://cinghiopinghio.github.io/log/2014-12-05-pasta/pasta.html</id>
-            <updated>2014-12-05T14:21:00Z</updated>
+            <updated>2014-12-05T17:41:00Z</updated>
             
             
             <content type="html"></content>
