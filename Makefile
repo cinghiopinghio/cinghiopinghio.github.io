@@ -29,5 +29,6 @@ serve: build
 stop:
 	@ for i in $$(cat /tmp/cserve.pid); do echo killing pid: $$i; kill $$i; done
 
-
+thumbs:
+	bash thumb.sh
 

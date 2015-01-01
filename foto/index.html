@@ -12,11 +12,11 @@
           </h2>
           {{ post.date }}{% if post.tags %} <span>&raquo;</span> {% for tag
           in post.tags %}<a href="{{ get_url(posts.tags[tag].url) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}
-          {% if loop.index < 6 %}
+          {% if loop.index < 11 %}
 	    {% if post.image %}
-	    <figure>
-	      <img src="{{ get_asset('images/logs/')+post.image }}"
-	      alt="item.title" width=100%/>
+	    <figure class='gallery'>
+	      <img src="{{ get_asset('images/logs/thumbs/')+post.image }}"
+	      alt="item.title" />
 	    </figure>
 	    {% endif %}
 	    {% endif %}
