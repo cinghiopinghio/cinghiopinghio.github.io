@@ -2042,22 +2042,28 @@ html {
 
 .splash, .splash2 {
   width: 100%;
-  padding-left: 25%;
-  padding-right: 25%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 2em;
+  padding-bottom: 2em;
   text-align: center; }
 
 .splash {
-  background-color: #333333;
-  color: #666666; }
+  color: #666666;
+  background-image: url("/assets/images/logs/valnoise.jpg");
+  background-size: cover;
+  background-position: center; }
   .splash h1 {
     color: #a65c59; }
   .splash img {
-    width: 60%; }
+    width: 50%; }
   @media screen and (min-width: 50em) {
     .splash img {
-      width: 40%; } }
+      width: 30%; } }
+
+.flat {
+  padding: 1em;
+  background: rgba(255, 255, 255, 0.5); }
 
 html {
   background-color: #36633d; }
