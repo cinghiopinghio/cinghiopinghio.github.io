@@ -1,15 +1,15 @@
 
-.central {
-  @include outer-container;
-  margin-top:2em;
-  width: 100%;
-  @include media($mmobile){
-    width : 60%;
-  }
-  margin-left: auto;
-  margin-right: auto;
-  .card {
-    @include span-columns(4);
-  }
+.central { 
+    @include outer-container;
+    margin-top:2em;
+    width: 100%;
+    @include media($mmobile){
+        width : 60%;
+    }
+    margin-left: auto;
+    margin-right: auto;
+    .card {
+        @include span-columns(4);
+    }
 }
 

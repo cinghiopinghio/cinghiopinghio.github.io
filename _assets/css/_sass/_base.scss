@@ -18,12 +18,12 @@ $color-text:  hsl(0deg,0%,80%);
 // Usage:
 // color: color(bg);
 $colors:(
-   main:  hsl(130deg,30%,50%),
-   sec:   hsl(2deg,30%,50%),
-   bg:    hsl(0deg,0%,20%),
-   gray1: hsl(0deg,0%,40%),
-   gray2: hsl(0deg,0%,60%),
-   text:  hsl(0deg,0%,80%)
+	main:  hsl(130deg,30%,50%),
+ 	sec:   hsl(2deg,30%,50%),
+ 	bg:    hsl(0deg,0%,20%),
+ 	gray1: hsl(0deg,0%,40%),
+ 	gray2: hsl(0deg,0%,60%),
+ 	text:  hsl(0deg,0%,80%)
 );
 
 $max-width : 100%;
@@ -41,5 +41,5 @@ $alt-font-family:  'DejaVu', serif;
 
 
 html {
-  font-family:$base-font-family;
+  	font-family:$base-font-family;
 }

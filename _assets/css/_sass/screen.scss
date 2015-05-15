@@ -2,31 +2,31 @@
 @import 'struct';
 
 html {
-  margin:0;
-  color: $color-text;
+  	margin:0;
+  	color: $color-text;
 }
 
 body {
-  margin:0;
-  background-color:$color-bg;
+  	margin:0;
+  	background-color:$color-bg;
 }
 
 nav {
-  background-color: $color-bg;
-  text-align:center;
-  padding:1em;
-  @include media ($mmobile){
-	  position:fixed;
-	  height:100%;
-	  text-align:right;
-  }
-  a:hover img {
-    @include background-image( radial-gradient($color-main, $color-bg) );
-  }
-  li {
-    padding: 0.25em 0;
-    list-style-type: none;
-  }
+  	background-color: $color-bg;
+  	text-align:center;
+  	padding:1em;
+  	@include media ($mmobile){
+  		position:fixed;
+  		height:100%;
+  		text-align:right;
+  	}
+  	a:hover img {
+		@include background-image( radial-gradient($color-main, $color-bg) );
+  	}
+  	li {
+		padding: 0.25em 0;
+		list-style-type: none;
+  	}
 }
 
 .bottom-line {
@@ -34,36 +34,36 @@ nav {
 }
 
 blockquote {
-  font-family: $alt-font-family;
-  font-weight: 300;
-  background-color: lighten($color-bg,$lighten1);
-  padding:1em;
-  color: darken($color-text,$darken1);
+  	font-family: $alt-font-family;
+  	font-weight: 300;
+  	background-color: lighten($color-bg,$lighten1);
+  	padding:1em;
+  	color: darken($color-text,$darken1);
 }
 
 a{
-  color: $color-main;
+  	color: $color-main;
 }
 
 ul.breadcrumbs {
-	padding:0;
-	li {
-		list-style:none;
-		display:inline-block;
-	}
+    padding:0;
+    li {
+        list-style:none;
+        display:inline-block;
+    }
 }
 a:hover {
-  color: $color_sec;
+    color: $color_sec;
 }
 
-article img{
-  width:100%;
+article img {
+    width:100%;
 }
 
 figure {
-	margin:0;
+    margin:0;
 }
 
 .main{
-	padding-bottom: 2em;
+    padding-bottom: 2em;
 }
