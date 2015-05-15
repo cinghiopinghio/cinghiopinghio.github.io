@@ -6,49 +6,35 @@
     </div>
 
     <div class='splash'>
-	    <div class='flat'>
-		<img src="{{ get_url('assets/images/')}}cp_circ.svg" alt="CinghioPinghio"> <br />
-		<h1>Cinghio Pinghio</h1>
-		<p>A collection of random stuff</p>
-	    </div>
+      <div class='flat'>
+        <img src="{{ get_url('assets/images/')}}cp_circ.svg" alt="CinghioPinghio"> <br />
+        <h1>Cinghio Pinghio</h1>
+        <p>A collection of random stuff</p>
+      </div>
     </div>
 
 
     <div class='central'>
-	    <div class='card'>
-		    <a href="{{ get_url('log') }}">
-			    <h2> LOG <i class="fa fa-pencil fa-lg"></i></h2>
-			    parole in libertá
-		    </a>
-    	    </div>
-	    <div class='card'>
-		    <a href="{{ get_url('code') }}">
-			    <h2>CODE <i class="fa fa-code-fork fa-lg"></i></h2>
-			    software, open source, linux...
-		    </a>
-    	    </div>
-
-	    <div class='card'>
-                  <a href="{{ get_url('foto') }}">
-			  <h2>FOTO <i class="fa fa-camera	fa-lg"></i></h2>
-			  foto, foto, foto
-		  </a>
-	    </div>
+      <a href="{{ get_url('log') }}" class='card'>
+        <h2> LOG <i class="fa fa-pencil fa-lg"></i></h2>
+        <p>parole in libertá</p>
+      </a>
+      <a href="{{ get_url('code') }}" class='card'>
+        <h2>CODE <i class="fa fa-code-fork fa-lg"></i></h2>
+        <p>software, open source, linux...</p>
+      </a>
+      <a href="{{ get_url('foto') }}" class='card'>
+        <h2>FOTO <i class="fa fa-camera	fa-lg"></i></h2>
+        <p>foto, foto, foto</p>
+      </a>
     </div>
+
     <div class='splash2'>
-      <p>
-        A place for codes, photography, GNU/linux, politics
-      </p>
-      <p>
-        Un posto per codici, fotografia, GNU/linux, politica
-      </p>
-      <p>
-        Un sitio para códigos, fotografía, GNU/Linux, política
-      </p>
-      <p>
-        <a href="https://www.github.com/cinghiopinghio" target='_blanck'><i
-			class="fa fa-github fa-2x"></i></a>
-      </p>
+      <p>A place for codes, photography, GNU/linux, politics</p>
+      <p>Un posto per codici, fotografia, GNU/linux, politica</p>
+      <p>Un sitio para códigos, fotografía, GNU/Linux, política</p>
+      <p><a href="https://www.github.com/cinghiopinghio" target='_blanck'>
+          <iclass="fa fa-github fa-2x"></i></a></p>
     </div>
 
 {% endblock %}

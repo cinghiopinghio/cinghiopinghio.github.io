@@ -51,14 +51,24 @@ html {
 
 .central .card {
     background-color: color(main);
-    a { color: $color-bg; }
-    color: $color-bg;
+    a { 
+        color: color(bg); 
+    }
+    display: inline-block;
+    color: color(bg);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     h1, h2, h3, h4, h5 {
         text-align: center;
-        margin: 0;
-        background-color: $color-bg;
-        color: $color-main;
+        margin-top: 0;
+        margin-bottom: 0.5em;
+        margin-left: -0.5rem;
+        margin-right: -0.5rem;
+        padding: 0.2em;
+        background-color: color(bg);
+        color: color(main);
     }
+    height: 10em;
 }
 
 .splash2 {
