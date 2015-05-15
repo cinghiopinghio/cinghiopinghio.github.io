@@ -2024,12 +2024,15 @@ th {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+html {
+  font-family: "DejaVu Sans", sans-serif; }
+
 .central {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2em;
-  width: 100%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto; }
   .central:after {
@@ -2040,24 +2043,19 @@ th {
     .central {
       width: 60%; } }
   .central .card {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 31.76157%;
-    background-color: #59a666;
-    color: #333333; }
-    .central .card:last-child {
-      margin-right: 0; }
-    .central .card a {
-      color: #333333; }
-    .central .card h1, .central .card h2, .central .card h3, .central .card h4, .central .card h5 {
-      text-align: center;
-      margin-top: 0;
-      background-color: #333333;
-      color: #59a666; }
+    margin-bottom: 1em;
+    width: 100%; }
+    @media screen and (min-width: 50em) {
+      .central .card {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 31.76157%; }
+        .central .card:last-child {
+          margin-right: 0; } }
 
 html {
-  font-family: "DejaVu Sans", sans-serif; }
+  background-color: #36633d; }
 
 .nav {
   background-color: #36633d;
@@ -2097,8 +2095,24 @@ html {
   padding: 1em;
   background: rgba(255, 255, 255, 0.5); }
 
-html {
-  background-color: #36633d; }
+.central .card {
+  background-color: #59a666;
+  display: inline-block;
+  color: #333333;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  height: 10em; }
+  .central .card a {
+    color: #333333; }
+  .central .card h1, .central .card h2, .central .card h3, .central .card h4, .central .card h5 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+    padding: 0.2em;
+    background-color: #333333;
+    color: #59a666; }
 
 .splash2 {
   background-color: #36633d; }
