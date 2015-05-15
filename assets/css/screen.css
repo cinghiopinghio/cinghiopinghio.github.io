@@ -2024,6 +2024,38 @@ th {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+.central {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+  .central:after {
+    content: "";
+    display: table;
+    clear: both; }
+  @media screen and (min-width: 50em) {
+    .central {
+      width: 60%; } }
+  .central .card {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    background-color: #59a666;
+    color: #333333; }
+    .central .card:last-child {
+      margin-right: 0; }
+    .central .card a {
+      color: #333333; }
+    .central .card h1, .central .card h2, .central .card h3, .central .card h4, .central .card h5 {
+      text-align: center;
+      margin-top: 0;
+      background-color: #333333;
+      color: #59a666; }
+
 html {
   font-family: "DejaVu Sans", sans-serif; }
 

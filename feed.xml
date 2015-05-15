@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://cinghiopinghio.github.io/" />
     <link rel="self" href="http://cinghiopinghio.github.io/feed.xml" type="application/atom+xml" />
     <id>http://cinghiopinghio.github.io/</id>
-    <updated>2015-05-11T14:08:17Z</updated>
+    <updated>2015-05-15T09:45:04Z</updated>
     
     <author>
         <name>Cinghio Pinghio</name>
@@ -18,7 +18,7 @@
             <title>campo</title>
             <link rel="alternate" href="http://cinghiopinghio.github.io/log/2015-01-01-campo/campo.html" type="text/html" />
             <id>http://cinghiopinghio.github.io/log/2015-01-01-campo/campo.html</id>
-            <updated>2015-01-01T17:41:00Z</updated>
+            <updated>2015-01-01T14:26:00Z</updated>
             
             
             <content type="html"></content>
@@ -28,7 +28,7 @@
             <title>pasta</title>
             <link rel="alternate" href="http://cinghiopinghio.github.io/log/2014-12-05-pasta/pasta.html" type="text/html" />
             <id>http://cinghiopinghio.github.io/log/2014-12-05-pasta/pasta.html</id>
-            <updated>2014-12-05T17:41:00Z</updated>
+            <updated>2014-12-05T14:26:00Z</updated>
             
             
             <content type="html"></content>
@@ -38,7 +38,7 @@
             <title>Scarpe</title>
             <link rel="alternate" href="http://cinghiopinghio.github.io/log/2014-12-04-Scarpe/scarpe.html" type="text/html" />
             <id>http://cinghiopinghio.github.io/log/2014-12-04-Scarpe/scarpe.html</id>
-            <updated>2014-12-04T14:29:00Z</updated>
+            <updated>2014-12-04T14:26:00Z</updated>
             
             
             <content type="html"></content>
@@ -48,7 +48,7 @@
             <title>King Kong</title>
             <link rel="alternate" href="http://cinghiopinghio.github.io/log/2014-12-01-King-Kong/kinkong.html" type="text/html" />
             <id>http://cinghiopinghio.github.io/log/2014-12-01-King-Kong/kinkong.html</id>
-            <updated>2014-12-01T14:30:00Z</updated>
+            <updated>2014-12-01T14:26:00Z</updated>
             
             
             <content type="html"></content>
@@ -58,7 +58,7 @@
             <title>Divieto</title>
             <link rel="alternate" href="http://cinghiopinghio.github.io/log/2014-11-30-Divieto/divieto.html" type="text/html" />
             <id>http://cinghiopinghio.github.io/log/2014-11-30-Divieto/divieto.html</id>
-            <updated>2014-11-30T14:31:00Z</updated>
+            <updated>2014-11-30T14:26:00Z</updated>
             
             
             <content type="html"></content>
@@ -68,7 +68,7 @@
             <title>Valnoise</title>
             <link rel="alternate" href="http://cinghiopinghio.github.io/log/2014-11-07-Valnoise/valnoise.html" type="text/html" />
             <id>http://cinghiopinghio.github.io/log/2014-11-07-Valnoise/valnoise.html</id>
-            <updated>2014-11-07T14:30:00Z</updated>
+            <updated>2014-11-07T14:26:00Z</updated>
             
             
             <content type="html"></content>
@@ -78,7 +78,7 @@
             <title>Sincronizzarmi</title>
             <link rel="alternate" href="http://cinghiopinghio.github.io/log/2014-10-28-Sincronizzarmi/syncthing.html" type="text/html" />
             <id>http://cinghiopinghio.github.io/log/2014-10-28-Sincronizzarmi/syncthing.html</id>
-            <updated>2014-10-28T14:47:00Z</updated>
+            <updated>2014-10-28T09:29:00Z</updated>
             
             <summary type="html">Da sempre lavoro con piú di un computer e da sempre mi sono imbattuto nel
 problema annoso di sincronizzare le varie postazioni.
@@ -99,7 +99,7 @@ includa vivere perennemente attaccati ad una USB.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Sincro delle configurazioni&lt;/h2&gt;
 &lt;p&gt;Nel caso delle configurazioni, la maggior parte di esse sono salvate in
-file di testo (i cosidetti dotfile) nella mia home.
+file di testo (i cosidetti dotfiles) nella mia home.
 Come molti altri i miei dotfiles sono salvati su
 &lt;a href=&#34;https://github.com/cinghiopinghio/config-files&#34;&gt;GitHub&lt;/a&gt; e
 pubblicamente consultabili.&lt;/p&gt;
@@ -124,6 +124,24 @@ Uno sviluppo libero-open source che grazie alla tecnologia peer-to-peer
 costruisce una rete di computer che scambiano dati senza il bisogno di un
 sever centrale (a parte per scoprirsi in rete), esattamenre come funziona
 il torrent.&lt;/p&gt;
+&lt;h2&gt;Syncthing brevemente&lt;/h2&gt;
+&lt;p&gt;La visione di syncthing é molto semplice: ci sono due dispositivi e vogliamo
+che un certo numero di files siano costantemente sincronizzati.&lt;/p&gt;
+
+&lt;p&gt;Dopo aver installato ST (trovi gli eseguibili 
+&lt;a href=&#34;https://github.com/syncthing/syncthing/releases&#34;&gt;qui&lt;/a&gt;) 
+aggiungi una cartella del tuo dispositivo da sicronizzare dando un nome
+identificativo.
+Quando abbiamo installato ST su entrambi i
+dispositivi, questi si mettono in comunicazione scambiandosi il loro
+codice idendificativo (ID) e condividendo la cartella da sincronizzare.&lt;/p&gt;
+
+&lt;p&gt;La sincronizzazione é molto rapida perché si basa su un algoritmo simile a GIT
+e non deve copiare uno per uno i files.
+Come nota tecnica, la comunicazione tra device é criptata (e quindi richiede
+un minimo di cpu) e l&amp;#39;unica informazione che puó essere recuperata con un
+attacco é il proprio IP 
+(&lt;a href=&#34;https://github.com/syncthing/syncthing/wiki/Information-Leakage&#34;&gt;vedi qui&lt;/a&gt;).&lt;/p&gt;
 </content>
         </entry>
     
@@ -131,7 +149,7 @@ il torrent.&lt;/p&gt;
             <title>Re-enable usb mass storage in CM 10.1 nightly LG p970</title>
             <link rel="alternate" href="http://cinghiopinghio.github.io/log/2014-09-09-Re-enable-usb-mass-storage-in-CM-10.1-nightly-LG-p970/cm-droid-usb.html" type="text/html" />
             <id>http://cinghiopinghio.github.io/log/2014-09-09-Re-enable-usb-mass-storage-in-CM-10.1-nightly-LG-p970/cm-droid-usb.html</id>
-            <updated>2014-09-09T12:52:00Z</updated>
+            <updated>2014-09-09T09:51:00Z</updated>
             
             <summary type="html">Con l&amp;#39;ultimo upgrade di cyanogenmod, non sono più riuscito a far funzionare
 il telefono come una UMS (Usb Mass Storage).
@@ -163,7 +181,7 @@ here are the linux message before reboot&lt;/p&gt;
             <title>Primo</title>
             <link rel="alternate" href="http://cinghiopinghio.github.io/log/2014-09-01-Primo/primo.html" type="text/html" />
             <id>http://cinghiopinghio.github.io/log/2014-09-01-Primo/primo.html</id>
-            <updated>2014-09-01T12:42:00Z</updated>
+            <updated>2014-09-01T09:51:00Z</updated>
             
             <summary type="html">Da molto tempo coltivavo l&amp;#39;idea di costruire un sito personale che funzionasse da contenitore per ca&amp;hellip;te, 
 foto, codici, segnalibri, ogni sorta di cosa che mi attraversa il cranio.
