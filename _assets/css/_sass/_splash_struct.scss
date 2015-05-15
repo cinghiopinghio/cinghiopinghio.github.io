@@ -10,15 +10,6 @@
   margin-right: auto;
   .card {
     @include span-columns(4);
-    background-color: color(main);
-    a { color: $color-bg; }
-    color: $color-bg;
-    h1, h2, h3, h4, h5 {
-      text-align: center;
-      margin: 0;
-      background-color: $color-bg;
-      color: $color-main;
-    }
   }
 }
 
