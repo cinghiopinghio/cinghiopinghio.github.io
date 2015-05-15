@@ -33,6 +33,31 @@ $mmedium: new-breakpoint(min-width $breakpoint-medium 12);
 $mbig: new-breakpoint(min-width $breakpoint-big 12);
 
 
+.central {
+	@include outer-container;
+	margin-top:2em;
+	width: 100%
+	@include media($mmobile){
+		width : 60%;
+	}
+	margin-left: auto;
+	margin-right: auto;
+
+	.card {
+		@include span-columns(4);
+		background-color: $color-main;
+		a { color: $color-bg; }
+		color: $color-bg;
+		h1, h2, h3, h4, h5 {
+			text-align: center;
+			margin-top: 0;
+			background-color: $color-bg;
+			color: $color-main;
+
+		}
+	}
+}
+
 $base-font-family: 'DejaVu Sans', sans-serif;
 $code-font-family: 'DejaVu Mono', monospace;
 $alt-font-family:  'DejaVu', serif;
