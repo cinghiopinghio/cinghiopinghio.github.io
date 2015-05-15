@@ -1,4 +1,10 @@
 @import 'base';
+@import 'splash_struct';
+
+
+html {
+  background-color: darken($color-main,$darken2);
+}
 
 .nav {
   background-color: darken($color-main,$darken2);
@@ -40,20 +46,27 @@
 }
 
 .flat {
-	padding: 1em;
-	background: rgba(256,256,256,0.5);
-	//border-radius: 0.5em;	
+  padding: 1em;
+  background: rgba(256,256,256,0.5);
+  //border-radius: 0.5em;	
 }
 
-html {
-  background-color: darken($color-main,$darken2);
+.central .card {
+  background-color: color(main);
+  a { color: $color-bg; }
+  color: $color-bg;
+  h1, h2, h3, h4, h5 {
+    text-align: center;
+    margin: 0;
+    background-color: $color-bg;
+    color: $color-main;
+  }
 }
 
 .splash2 {
   @extend %splash;
   background-color: darken($color-main,$darken2);
 }
-
 
 h1 {
   font-size: 200%;
