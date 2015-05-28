@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://cinghiopinghio.github.io/" />
     <link rel="self" href="http://cinghiopinghio.github.io/feed.xml" type="application/atom+xml" />
     <id>http://cinghiopinghio.github.io/</id>
-    <updated>2015-05-15T14:37:21Z</updated>
+    <updated>2015-05-28T14:07:43Z</updated>
     
     <author>
         <name>Cinghio Pinghio</name>
@@ -15,10 +15,36 @@
     
     
         <entry>
+            <title>Infinality configfont</title>
+            <link rel="alternate" href="http://cinghiopinghio.github.io/log/2015-05-28-Infinality-configfont/infinality.html" type="text/html" />
+            <id>http://cinghiopinghio.github.io/log/2015-05-28-Infinality-configfont/infinality.html</id>
+            <updated>2015-05-28T14:06:00Z</updated>
+            
+            <summary type="html">Today I&amp;rsquo;ve discovered a great piece of software,
+&lt;a href=&#34;www.infinality.net&#34;&gt;Infinality&lt;/a&gt;.</summary>
+            <content type="html">&lt;p&gt;Today I&amp;rsquo;ve discovered a great piece of software,
+&lt;a href=&#34;www.infinality.net&#34;&gt;Infinality&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Since forever I&amp;rsquo;m a GNU/Linux user and fan. Some of you may use the word geek.
+However, since I spend many hours in front of a screen, it&amp;rsquo;s really important
+to use an high quality, high DPI screen.&lt;/p&gt;
+
+&lt;p&gt;This lead me somehow to envy those freaking crisp mac screens, with their
+fonts so damn defined&amp;hellip; f**k I wanted one of those.&lt;/p&gt;
+
+&lt;p&gt;Until today!!!&lt;/p&gt;
+
+&lt;p&gt;Yes, after installing &lt;a href=&#34;www.Infinality.net&#34;&gt;Infinality&lt;/a&gt; in my laptop, all those
+linux fonts become immediatly (even without any configuration) sharper and
+nicer. Thats great. Try it.&lt;/p&gt;
+</content>
+        </entry>
+    
+        <entry>
             <title>campo</title>
             <link rel="alternate" href="http://cinghiopinghio.github.io/log/2015-01-01-campo/campo.html" type="text/html" />
             <id>http://cinghiopinghio.github.io/log/2015-01-01-campo/campo.html</id>
-            <updated>2015-01-01T14:26:00Z</updated>
+            <updated>2015-01-01T17:41:00Z</updated>
             
             
             <content type="html"></content>
@@ -28,7 +54,7 @@
             <title>pasta</title>
             <link rel="alternate" href="http://cinghiopinghio.github.io/log/2014-12-05-pasta/pasta.html" type="text/html" />
             <id>http://cinghiopinghio.github.io/log/2014-12-05-pasta/pasta.html</id>
-            <updated>2014-12-05T14:26:00Z</updated>
+            <updated>2014-12-05T17:41:00Z</updated>
             
             
             <content type="html"></content>
@@ -38,7 +64,7 @@
             <title>Scarpe</title>
             <link rel="alternate" href="http://cinghiopinghio.github.io/log/2014-12-04-Scarpe/scarpe.html" type="text/html" />
             <id>http://cinghiopinghio.github.io/log/2014-12-04-Scarpe/scarpe.html</id>
-            <updated>2014-12-04T14:26:00Z</updated>
+            <updated>2014-12-04T14:29:00Z</updated>
             
             
             <content type="html"></content>
@@ -48,7 +74,7 @@
             <title>King Kong</title>
             <link rel="alternate" href="http://cinghiopinghio.github.io/log/2014-12-01-King-Kong/kinkong.html" type="text/html" />
             <id>http://cinghiopinghio.github.io/log/2014-12-01-King-Kong/kinkong.html</id>
-            <updated>2014-12-01T14:26:00Z</updated>
+            <updated>2014-12-01T14:30:00Z</updated>
             
             
             <content type="html"></content>
@@ -58,7 +84,7 @@
             <title>Divieto</title>
             <link rel="alternate" href="http://cinghiopinghio.github.io/log/2014-11-30-Divieto/divieto.html" type="text/html" />
             <id>http://cinghiopinghio.github.io/log/2014-11-30-Divieto/divieto.html</id>
-            <updated>2014-11-30T14:26:00Z</updated>
+            <updated>2014-11-30T14:31:00Z</updated>
             
             
             <content type="html"></content>
@@ -68,7 +94,7 @@
             <title>Valnoise</title>
             <link rel="alternate" href="http://cinghiopinghio.github.io/log/2014-11-07-Valnoise/valnoise.html" type="text/html" />
             <id>http://cinghiopinghio.github.io/log/2014-11-07-Valnoise/valnoise.html</id>
-            <updated>2014-11-07T14:26:00Z</updated>
+            <updated>2014-11-07T14:30:00Z</updated>
             
             
             <content type="html"></content>
@@ -78,7 +104,7 @@
             <title>Sincronizzarmi</title>
             <link rel="alternate" href="http://cinghiopinghio.github.io/log/2014-10-28-Sincronizzarmi/syncthing.html" type="text/html" />
             <id>http://cinghiopinghio.github.io/log/2014-10-28-Sincronizzarmi/syncthing.html</id>
-            <updated>2014-10-28T09:29:00Z</updated>
+            <updated>2014-10-28T13:55:00Z</updated>
             
             <summary type="html">Da sempre lavoro con piú di un computer e da sempre mi sono imbattuto nel
 problema annoso di sincronizzare le varie postazioni.
@@ -149,7 +175,7 @@ attacco é il proprio IP
             <title>Re-enable usb mass storage in CM 10.1 nightly LG p970</title>
             <link rel="alternate" href="http://cinghiopinghio.github.io/log/2014-09-09-Re-enable-usb-mass-storage-in-CM-10.1-nightly-LG-p970/cm-droid-usb.html" type="text/html" />
             <id>http://cinghiopinghio.github.io/log/2014-09-09-Re-enable-usb-mass-storage-in-CM-10.1-nightly-LG-p970/cm-droid-usb.html</id>
-            <updated>2014-09-09T09:51:00Z</updated>
+            <updated>2014-09-09T12:52:00Z</updated>
             
             <summary type="html">Con l&amp;#39;ultimo upgrade di cyanogenmod, non sono più riuscito a far funzionare
 il telefono come una UMS (Usb Mass Storage).
@@ -181,7 +207,7 @@ here are the linux message before reboot&lt;/p&gt;
             <title>Primo</title>
             <link rel="alternate" href="http://cinghiopinghio.github.io/log/2014-09-01-Primo/primo.html" type="text/html" />
             <id>http://cinghiopinghio.github.io/log/2014-09-01-Primo/primo.html</id>
-            <updated>2014-09-01T09:51:00Z</updated>
+            <updated>2014-09-01T12:42:00Z</updated>
             
             <summary type="html">Da molto tempo coltivavo l&amp;#39;idea di costruire un sito personale che funzionasse da contenitore per ca&amp;hellip;te, 
 foto, codici, segnalibri, ogni sorta di cosa che mi attraversa il cranio.
