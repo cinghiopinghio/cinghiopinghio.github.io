@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://cinghiopinghio.github.io/" />
     <link rel="self" href="http://cinghiopinghio.github.io/feed.xml" type="application/atom+xml" />
     <id>http://cinghiopinghio.github.io/</id>
-    <updated>2015-05-28T14:07:43Z</updated>
+    <updated>2015-09-03T18:59:32Z</updated>
     
     <author>
         <name>Cinghio Pinghio</name>
@@ -13,6 +13,57 @@
         <uri>http://cinghiopinghio.github.io/</uri>
     </author>
     
+    
+        <entry>
+            <title>Email</title>
+            <link rel="alternate" href="http://cinghiopinghio.github.io/log/2015-07-08-Email/email.html" type="text/html" />
+            <id>http://cinghiopinghio.github.io/log/2015-07-08-Email/email.html</id>
+            <updated>2015-07-08T18:58:00Z</updated>
+            
+            <summary type="html">With the occasion of changing machine (work location), I feel that&amp;rsquo;s the
+perfect moment to reorder my email fetching/reading/syncing process.</summary>
+            <content type="html">&lt;p&gt;With the occasion of changing machine (work location), I feel that&amp;rsquo;s the
+perfect moment to reorder my email fetching/reading/syncing process.&lt;/p&gt;
+
+&lt;p&gt;Everything is built around the &lt;a href=&#34;http://notmuchmail.org/&#34;&gt;notmuch&lt;/a&gt; email
+indexer (based on the &lt;a href=&#34;http://xapian.org/&#34;&gt;xapian&lt;/a&gt; tagging systems)&lt;/p&gt;
+&lt;h1&gt;Workflow&lt;/h1&gt;
+&lt;p&gt;In this post I&amp;rsquo;ll describe the workflow as I set it on my machines.
+Every step will have it&amp;rsquo;s own post in future (probably).&lt;/p&gt;
+&lt;h2&gt;Fetch emails&lt;/h2&gt;
+&lt;p&gt;First thing is to get your remote emails copied locally to a &lt;code&gt;maildir&lt;/code&gt; folder.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve used &lt;code&gt;offlineimap&lt;/code&gt; since some years now and I was a bit disappointed on how
+slow it may be and how dirty the configuration file ends up.
+I started looking around and found 
+&lt;a href=&#34;http://isync.sourceforge.net/&#34;&gt;isync/mbsync&lt;/a&gt;.
+Now my configuration file is much cleaner and the fetching time decreased a
+lot.&lt;/p&gt;
+&lt;h2&gt;Tag Emails&lt;/h2&gt;
+&lt;p&gt;This is of course the central part of the whole system.
+The basic idea is to do what
+Google does on your mails: scan them, index them &lt;em&gt;but&lt;/em&gt; in a &lt;em&gt;local&lt;/em&gt; database.&lt;/p&gt;
+
+&lt;p&gt;In this case the chosen app is &lt;a href=&#34;http://notmuchmail.org&#34;&gt;notmuch&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Sync Emails&lt;/h2&gt;
+&lt;p&gt;The problem here is that you probably have your mails synchronized on
+several local machines and for the nature of local synchronization, you end up
+with different databases on different machines.&lt;/p&gt;
+
+&lt;p&gt;Several solutions have been proposed to this (the more advanced of which is 
+&lt;code&gt;muchsync&lt;/code&gt;)&lt;/p&gt;
+
+&lt;p&gt;Discussion &lt;a href=&#34;http://notmuch.198994.n3.nabble.com/Synchronization-success-stories-td4030763.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For now I use &lt;code&gt;notmuch dump/restore&lt;/code&gt; with some syncing method (git or
+syncthing).&lt;/p&gt;
+&lt;h2&gt;E-Mail Address Book&lt;/h2&gt;
+&lt;p&gt;Lightning fast &lt;a href=&#34;https://github.com/aperezdc/notmuch-addrlookup-c&#34;&gt;notmuch-addrlookup&lt;/a&gt;,
+written in C.&lt;/p&gt;
+&lt;h2&gt;read/write&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://alot.readthedocs.org/en/latest/&#34;&gt;alot&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
     
         <entry>
             <title>Infinality configfont</title>
